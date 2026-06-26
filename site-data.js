@@ -51,163 +51,255 @@ window.GE_DATA = {
       "unit": "Unit 45",
       "term": "resist",
       "cn": "反抗",
-      "definition": "refuse to accept sth and try to stop it happening resistance n"
+      "definition": "refuse to accept sth and try to stop it happening resistance n",
+      "forms": [
+        "resistance"
+      ],
+      "usage": []
     },
     {
       "unit": "Unit 45",
       "term": "enforce",
       "cn": "服從",
-      "definition": "make people obey sth; enforce the law, enforcement n"
+      "definition": "make people obey sth; enforce the law, enforcement n",
+      "forms": [
+        "enforcement"
+      ],
+      "usage": [
+        "enforce the law, enforcement n"
+      ]
     },
     {
       "unit": "Unit 45",
       "term": "impose sth (on/upon sb)",
       "cn": "強迫",
-      "definition": "make sb accept sth against their wishes"
+      "definition": "make sb accept sth against their wishes",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 45",
       "term": "pursue",
       "cn": "追求",
-      "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal"
+      "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal",
+      "forms": [],
+      "usage": [
+        "follow or try to achieve sth over a period of time: pursue a policy/goal"
+      ]
     },
     {
       "unit": "Unit 45",
       "term": "bring about",
       "cn": "引起",
-      "definition": "make sth happen"
+      "definition": "make sth happen",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 45",
       "term": "subtle",
       "cn": "不易察覺",
-      "definition": "not easy to notice or understand; a subtle difference; OPP obvious"
+      "definition": "not easy to notice or understand; a subtle difference; OPP obvious",
+      "forms": [],
+      "usage": [
+        "OPP obvious"
+      ]
     },
     {
       "unit": "Unit 45",
       "term": "facilitate",
       "cn": "促進",
-      "definition": "make an action or process easier to achieve"
+      "definition": "make an action or process easier to achieve",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 45",
       "term": "ongoing",
       "cn": "持續的",
-      "definition": "continuing to develop; an ongoing process/investigation"
+      "definition": "continuing to develop; an ongoing process/investigation",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 45",
       "term": "consultation",
       "cn": "咨詢",
-      "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee"
+      "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee",
+      "forms": [
+        "sb",
+        "consultative"
+      ],
+      "usage": [
+        "consultative adj: a consultative process/committee"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "implement",
       "cn": "實施",
-      "definition": "make sth that has been decided start to happen SYN put into practice; implementation n"
+      "definition": "make sth that has been decided start to happen SYN put into practice; implementation n",
+      "forms": [
+        "implementation"
+      ],
+      "usage": [
+        "make sth that has been decided start to happen SYN put into practice"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "conserve",
       "cn": "節約",
-      "definition": "avoid wasting sth conservation n"
+      "definition": "avoid wasting sth conservation n",
+      "forms": [
+        "conservation"
+      ],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "switch (to sth)",
       "cn": "轉變",
-      "definition": "change or make sth change from using one thing to using another"
+      "definition": "change or make sth change from using one thing to using another",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "-saving",
       "cn": "節約的",
-      "definition": "not wasting anything; energy-saving, a labour-saving device"
+      "definition": "not wasting anything; energy-saving, a labour-saving device",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "eco-",
       "cn": "生態的",
-      "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster"
+      "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster",
+      "forms": [],
+      "usage": [
+        "(short for ecology/ecological) relating to the environment: an eco-disaster"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "consumption",
       "cn": "消耗",
-      "definition": "the act of using energy, food or materials. A person is a consumer. consume v"
+      "definition": "the act of using energy, food or materials. A person is a consumer. consume v",
+      "forms": [
+        "consume",
+        "consumer"
+      ],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "saving",
       "cn": "節約",
-      "definition": "an amount of sth, such as money or time, that you do not need to spend or use"
+      "definition": "an amount of sth, such as money or time, that you do not need to spend or use",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "appliance",
       "cn": "家用電器",
-      "definition": "a machine you use at home, e.g. a fridge, a washing machine"
+      "definition": "a machine you use at home, e.g. a fridge, a washing machine",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "on standby",
       "cn": "待機",
-      "definition": "If a TV is on standby, it is connected to the power supply but is not in use."
+      "definition": "If a TV is on standby, it is connected to the power supply but is not in use.",
+      "forms": [],
+      "usage": [
+        "If a TV is on standby, it is connected to the power supply but is not in use"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "charge (sth up)",
       "cn": "充電",
-      "definition": "pass electricity through sth to store it there charger n"
+      "definition": "pass electricity through sth to store it there charger n",
+      "forms": [
+        "charger"
+      ],
+      "usage": [
+        "pass electricity through sth to store it there charger n"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "tumble dryer",
       "cn": "滾筒乾衣機",
-      "definition": "a machine that uses hot air to dry clothes"
+      "definition": "a machine that uses hot air to dry clothes",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "dispose of sth",
       "cn": "丟棄",
-      "definition": "get rid of sth that you do not want or cannot keep disposal n"
+      "definition": "get rid of sth that you do not want or cannot keep disposal n",
+      "forms": [
+        "disposal"
+      ],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "landfill (site)",
       "cn": "垃圾堆填區",
-      "definition": "an area of land where large amounts of rubbish are buried"
+      "definition": "an area of land where large amounts of rubbish are buried",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "toxic",
       "cn": "有毒的",
-      "definition": "poisonous; toxic chemicals/gases/substances"
+      "definition": "poisonous; toxic chemicals/gases/substances",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "better still",
       "cn": "更好的是",
-      "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
+      "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still",
+      "forms": [],
+      "usage": [
+        "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
+      ]
     },
     {
       "unit": "Unit 46",
       "term": "monitor",
       "cn": "監測",
-      "definition": "watch and check sth over a period of time to see how it develops or changes"
+      "definition": "watch and check sth over a period of time to see how it develops or changes",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "investment",
       "cn": "投資",
-      "definition": "a thing that is worth buying because it will be useful and helpful"
+      "definition": "a thing that is worth buying because it will be useful and helpful",
+      "forms": [],
+      "usage": []
     },
     {
       "unit": "Unit 46",
       "term": "generate",
       "cn": "產生",
-      "definition": "produce or create sth: generate electricity"
+      "definition": "produce or create sth: generate electricity",
+      "forms": [],
+      "usage": [
+        "produce or create sth: generate electricity"
+      ]
     }
   ],
   "wordskillStudy": {
@@ -216,163 +308,255 @@ window.GE_DATA = {
         "unit": "Unit 45",
         "term": "resist",
         "cn": "反抗",
-        "definition": "refuse to accept sth and try to stop it happening resistance n"
+        "definition": "refuse to accept sth and try to stop it happening resistance n",
+        "forms": [
+          "resistance"
+        ],
+        "usage": []
       },
       {
         "unit": "Unit 45",
         "term": "enforce",
         "cn": "服從",
-        "definition": "make people obey sth; enforce the law, enforcement n"
+        "definition": "make people obey sth; enforce the law, enforcement n",
+        "forms": [
+          "enforcement"
+        ],
+        "usage": [
+          "enforce the law, enforcement n"
+        ]
       },
       {
         "unit": "Unit 45",
         "term": "impose sth (on/upon sb)",
         "cn": "強迫",
-        "definition": "make sb accept sth against their wishes"
+        "definition": "make sb accept sth against their wishes",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 45",
         "term": "pursue",
         "cn": "追求",
-        "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal"
+        "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal",
+        "forms": [],
+        "usage": [
+          "follow or try to achieve sth over a period of time: pursue a policy/goal"
+        ]
       },
       {
         "unit": "Unit 45",
         "term": "bring about",
         "cn": "引起",
-        "definition": "make sth happen"
+        "definition": "make sth happen",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 45",
         "term": "subtle",
         "cn": "不易察覺",
-        "definition": "not easy to notice or understand; a subtle difference; OPP obvious"
+        "definition": "not easy to notice or understand; a subtle difference; OPP obvious",
+        "forms": [],
+        "usage": [
+          "OPP obvious"
+        ]
       },
       {
         "unit": "Unit 45",
         "term": "facilitate",
         "cn": "促進",
-        "definition": "make an action or process easier to achieve"
+        "definition": "make an action or process easier to achieve",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 45",
         "term": "ongoing",
         "cn": "持續的",
-        "definition": "continuing to develop; an ongoing process/investigation"
+        "definition": "continuing to develop; an ongoing process/investigation",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 45",
         "term": "consultation",
         "cn": "咨詢",
-        "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee"
+        "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee",
+        "forms": [
+          "sb",
+          "consultative"
+        ],
+        "usage": [
+          "consultative adj: a consultative process/committee"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "implement",
         "cn": "實施",
-        "definition": "make sth that has been decided start to happen SYN put into practice; implementation n"
+        "definition": "make sth that has been decided start to happen SYN put into practice; implementation n",
+        "forms": [
+          "implementation"
+        ],
+        "usage": [
+          "make sth that has been decided start to happen SYN put into practice"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "conserve",
         "cn": "節約",
-        "definition": "avoid wasting sth conservation n"
+        "definition": "avoid wasting sth conservation n",
+        "forms": [
+          "conservation"
+        ],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "switch (to sth)",
         "cn": "轉變",
-        "definition": "change or make sth change from using one thing to using another"
+        "definition": "change or make sth change from using one thing to using another",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "-saving",
         "cn": "節約的",
-        "definition": "not wasting anything; energy-saving, a labour-saving device"
+        "definition": "not wasting anything; energy-saving, a labour-saving device",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "eco-",
         "cn": "生態的",
-        "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster"
+        "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster",
+        "forms": [],
+        "usage": [
+          "(short for ecology/ecological) relating to the environment: an eco-disaster"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "consumption",
         "cn": "消耗",
-        "definition": "the act of using energy, food or materials. A person is a consumer. consume v"
+        "definition": "the act of using energy, food or materials. A person is a consumer. consume v",
+        "forms": [
+          "consume",
+          "consumer"
+        ],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "saving",
         "cn": "節約",
-        "definition": "an amount of sth, such as money or time, that you do not need to spend or use"
+        "definition": "an amount of sth, such as money or time, that you do not need to spend or use",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "appliance",
         "cn": "家用電器",
-        "definition": "a machine you use at home, e.g. a fridge, a washing machine"
+        "definition": "a machine you use at home, e.g. a fridge, a washing machine",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "on standby",
         "cn": "待機",
-        "definition": "If a TV is on standby, it is connected to the power supply but is not in use."
+        "definition": "If a TV is on standby, it is connected to the power supply but is not in use.",
+        "forms": [],
+        "usage": [
+          "If a TV is on standby, it is connected to the power supply but is not in use"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "charge (sth up)",
         "cn": "充電",
-        "definition": "pass electricity through sth to store it there charger n"
+        "definition": "pass electricity through sth to store it there charger n",
+        "forms": [
+          "charger"
+        ],
+        "usage": [
+          "pass electricity through sth to store it there charger n"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "tumble dryer",
         "cn": "滾筒乾衣機",
-        "definition": "a machine that uses hot air to dry clothes"
+        "definition": "a machine that uses hot air to dry clothes",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "dispose of sth",
         "cn": "丟棄",
-        "definition": "get rid of sth that you do not want or cannot keep disposal n"
+        "definition": "get rid of sth that you do not want or cannot keep disposal n",
+        "forms": [
+          "disposal"
+        ],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "landfill (site)",
         "cn": "垃圾堆填區",
-        "definition": "an area of land where large amounts of rubbish are buried"
+        "definition": "an area of land where large amounts of rubbish are buried",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "toxic",
         "cn": "有毒的",
-        "definition": "poisonous; toxic chemicals/gases/substances"
+        "definition": "poisonous; toxic chemicals/gases/substances",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "better still",
         "cn": "更好的是",
-        "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
+        "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still",
+        "forms": [],
+        "usage": [
+          "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
+        ]
       },
       {
         "unit": "Unit 46",
         "term": "monitor",
         "cn": "監測",
-        "definition": "watch and check sth over a period of time to see how it develops or changes"
+        "definition": "watch and check sth over a period of time to see how it develops or changes",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "investment",
         "cn": "投資",
-        "definition": "a thing that is worth buying because it will be useful and helpful"
+        "definition": "a thing that is worth buying because it will be useful and helpful",
+        "forms": [],
+        "usage": []
       },
       {
         "unit": "Unit 46",
         "term": "generate",
         "cn": "產生",
-        "definition": "produce or create sth: generate electricity"
+        "definition": "produce or create sth: generate electricity",
+        "forms": [],
+        "usage": [
+          "produce or create sth: generate electricity"
+        ]
       }
     ],
     "changeWords": [
@@ -380,55 +564,91 @@ window.GE_DATA = {
         "word": "adapt to",
         "cn": "適應",
         "example": "I find it difficult to adapt to（適應） so much new technology.",
-        "meaning": "change your behaviour because the situation has changed SYN adjust (to sth)"
+        "meaning": "change your behaviour because the situation has changed SYN adjust (to sth)",
+        "forms": [],
+        "usage": [
+          "change your behaviour because the situation has changed SYN adjust (to sth)"
+        ]
       },
       {
         "word": "altered",
         "cn": "修改",
         "example": "We've altered（修改） our plans: we're now arriving at 6.00, not 7.00.",
-        "meaning": "make sth different but without changing it completely alteration n"
+        "meaning": "make sth different but without changing it completely alteration n",
+        "forms": [
+          "alteration"
+        ],
+        "usage": []
       },
       {
         "word": "amending",
         "cn": "修改slightly",
         "example": "Civil servants are now amending（修改slightly） the document.",
-        "meaning": "change sth slightly usually to correct a mistake in a statement, document, etc. amendment n"
+        "meaning": "change sth slightly usually to correct a mistake in a statement, document, etc. amendment n",
+        "forms": [
+          "amendment"
+        ],
+        "usage": []
       },
       {
         "word": "evolved",
         "cn": "逐步發展",
         "example": "Democracy has evolved（逐步發展） over hundreds of years.",
-        "meaning": "change gradually, often from sth simple to sth more complicated evolution n"
+        "meaning": "change gradually, often from sth simple to sth more complicated evolution n",
+        "forms": [
+          "evolution"
+        ],
+        "usage": []
       },
       {
         "word": "reform",
         "cn": "改革",
         "example": "There are new proposals to reform（改革） the prison system.",
-        "meaning": "change a law, system, organization, etc. to make it better reform n"
+        "meaning": "change a law, system, organization, etc. to make it better reform n",
+        "forms": [],
+        "usage": []
       },
       {
         "word": "restore",
         "cn": "恢復",
         "example": "Some people want to restore（恢復） the monarchy in certain countries.",
-        "meaning": "return sth to its former state or condition, e.g. a building, a painting restoration n"
+        "meaning": "return sth to its former state or condition, e.g. a building, a painting restoration n",
+        "forms": [
+          "restoration"
+        ],
+        "usage": []
       },
       {
         "word": "reversed",
         "cn": "推翻",
         "example": "They were going to let him go, but they reversed（推翻） their decision.",
-        "meaning": "change sth so it is the opposite of what it was before: reverse a decision/policy; reversal n"
+        "meaning": "change sth so it is the opposite of what it was before: reverse a decision/policy; reversal n",
+        "forms": [
+          "reversal"
+        ],
+        "usage": [
+          "change sth so it is the opposite of what it was before: reverse a decision/policy"
+        ]
       },
       {
         "word": "transformed",
         "cn": "徹底改變",
         "example": "Computers have transformed（徹底改變） our lives.",
-        "meaning": "completely change the appearance or character of sth, often to make it better transformation n"
+        "meaning": "completely change the appearance or character of sth, often to make it better transformation n",
+        "forms": [
+          "transformation"
+        ],
+        "usage": []
       },
       {
         "word": "transition",
         "cn": "轉變",
         "example": "It's a big transition（轉變） from school to full-time work.",
-        "meaning": "a period of change from one state or condition to another: in transition"
+        "meaning": "a period of change from one state or condition to another: in transition",
+        "forms": [],
+        "usage": [
+          "a period of change from one state or condition to another: in transition"
+        ]
       }
     ],
     "spotlight": [
@@ -6608,10 +6828,6 @@ window.GE_DATA = {
           "text": "affects"
         },
         {
-          "key": "A",
-          "text": "affects"
-        },
-        {
           "key": "B",
           "text": "effects"
         },
@@ -6634,10 +6850,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "A mother always ______ her children first no matter under what kind of circumstances.",
       "options": [
-        {
-          "key": "A",
-          "text": "protects"
-        },
         {
           "key": "A",
           "text": "protects"
@@ -6670,10 +6882,6 @@ window.GE_DATA = {
           "text": "proposed"
         },
         {
-          "key": "A",
-          "text": "proposed"
-        },
-        {
           "key": "B",
           "text": "supposed"
         },
@@ -6696,10 +6904,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "When you blow air into the balloon, it could ______ to five times bigger or more.",
       "options": [
-        {
-          "key": "A",
-          "text": "expand"
-        },
         {
           "key": "A",
           "text": "expand"
@@ -6732,10 +6936,6 @@ window.GE_DATA = {
           "text": "adapt"
         },
         {
-          "key": "A",
-          "text": "adapt"
-        },
-        {
           "key": "B",
           "text": "adopt"
         },
@@ -6758,10 +6958,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "Please ______ your ticket again before going abroad.",
       "options": [
-        {
-          "key": "A",
-          "text": "confirm"
-        },
         {
           "key": "A",
           "text": "confirm"
@@ -6790,10 +6986,6 @@ window.GE_DATA = {
       "prompt": "We are ______ to provide ID before going into the library.",
       "options": [
         {
-          "key": "C",
-          "text": "required"
-        },
-        {
           "key": "A",
           "text": "requiring"
         },
@@ -6821,10 +7013,6 @@ window.GE_DATA = {
       "prompt": "It will be fair if we could look at this news from all the ______.",
       "options": [
         {
-          "key": "B",
-          "text": "aspects"
-        },
-        {
           "key": "A",
           "text": "inpects"
         },
@@ -6851,10 +7039,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "I ______ any form of racial discrimination.",
       "options": [
-        {
-          "key": "B",
-          "text": "resent"
-        },
         {
           "key": "A",
           "text": "recent"
@@ -6887,10 +7071,6 @@ window.GE_DATA = {
           "text": "extensive"
         },
         {
-          "key": "A",
-          "text": "extensive"
-        },
-        {
           "key": "B",
           "text": "intensive"
         },
@@ -6913,10 +7093,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "Adam struck a ______ on the piano.",
       "options": [
-        {
-          "key": "B",
-          "text": "chord"
-        },
         {
           "key": "A",
           "text": "chore"
@@ -6945,10 +7121,6 @@ window.GE_DATA = {
       "prompt": "The couple planned ______ to Finland to seek for better education.",
       "options": [
         {
-          "key": "B",
-          "text": "to immigrate"
-        },
-        {
           "key": "A",
           "text": "emigrate"
         },
@@ -6975,10 +7147,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "Although ______ factors may properly explain the motives behind the criminal action, the police cannot arrest them for this reason.",
       "options": [
-        {
-          "key": "B",
-          "text": "causal"
-        },
         {
           "key": "A",
           "text": "casual"
@@ -7007,10 +7175,6 @@ window.GE_DATA = {
       "prompt": "You can understand what happened approximately by the ______ of this letter.",
       "options": [
         {
-          "key": "C",
-          "text": "context"
-        },
-        {
           "key": "A",
           "text": "contend"
         },
@@ -7037,10 +7201,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "It’s an ______ behaviour to take something from someone without asking.",
       "options": [
-        {
-          "key": "B",
-          "text": "immoral"
-        },
         {
           "key": "A",
           "text": "immortal"
@@ -7073,10 +7233,6 @@ window.GE_DATA = {
           "text": "declined"
         },
         {
-          "key": "A",
-          "text": "declined"
-        },
-        {
           "key": "B",
           "text": "reclined"
         },
@@ -7099,10 +7255,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "The birds singing and the flowers in blossom are ______ the arrival of spring.",
       "options": [
-        {
-          "key": "D",
-          "text": "proclaiming"
-        },
         {
           "key": "A",
           "text": "exclaiming"
@@ -7130,10 +7282,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "The lava ______ from the volcano has caused a huge damage.",
       "options": [
-        {
-          "key": "B",
-          "text": "ejected"
-        },
         {
           "key": "A",
           "text": "rejected"
@@ -7166,10 +7314,6 @@ window.GE_DATA = {
           "text": "induce"
         },
         {
-          "key": "A",
-          "text": "induce"
-        },
-        {
           "key": "B",
           "text": "deduce"
         },
@@ -7192,10 +7336,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "The pill had great ______ on killing the pain.",
       "options": [
-        {
-          "key": "B",
-          "text": "effects"
-        },
         {
           "key": "A",
           "text": "affects"
@@ -7228,10 +7368,6 @@ window.GE_DATA = {
           "text": "protested"
         },
         {
-          "key": "A",
-          "text": "protested"
-        },
-        {
           "key": "B",
           "text": "protected"
         },
@@ -7254,10 +7390,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "The government ______ a heavy tax on luxury goods.",
       "options": [
-        {
-          "key": "D",
-          "text": "imposed"
-        },
         {
           "key": "A",
           "text": "proposed"
@@ -7286,10 +7418,6 @@ window.GE_DATA = {
       "prompt": "Please don’t ______ your energy on useless information.",
       "options": [
         {
-          "key": "B",
-          "text": "expend"
-        },
-        {
           "key": "A",
           "text": "expand"
         },
@@ -7317,10 +7445,6 @@ window.GE_DATA = {
       "prompt": "She’s very ______ at dealing with the media.",
       "options": [
         {
-          "key": "C",
-          "text": "adept"
-        },
-        {
           "key": "A",
           "text": "adapt"
         },
@@ -7347,10 +7471,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "It is important to ______ the laws when driving.",
       "options": [
-        {
-          "key": "B",
-          "text": "conform"
-        },
         {
           "key": "A",
           "text": "confirm"
@@ -7383,10 +7503,6 @@ window.GE_DATA = {
           "text": "acquired"
         },
         {
-          "key": "A",
-          "text": "acquired"
-        },
-        {
           "key": "B",
           "text": "required"
         },
@@ -7409,10 +7525,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "Animals will usually run away if they ______ there’s danger.",
       "options": [
-        {
-          "key": "C",
-          "text": "suspect"
-        },
         {
           "key": "A",
           "text": "aspect"
@@ -7440,10 +7552,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "I am sorry but I cannot ______ to such a request.",
       "options": [
-        {
-          "key": "C",
-          "text": "assent"
-        },
         {
           "key": "A",
           "text": "recent"
@@ -7476,10 +7584,6 @@ window.GE_DATA = {
           "text": "intensive; tense"
         },
         {
-          "key": "A",
-          "text": "intensive; tense"
-        },
-        {
           "key": "B",
           "text": "extensive; intense"
         },
@@ -7502,10 +7606,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "A lot of mothers are excellent at both working and doing daily ______.",
       "options": [
-        {
-          "key": "D",
-          "text": "chores"
-        },
         {
           "key": "A",
           "text": "chords"
@@ -7534,10 +7634,6 @@ window.GE_DATA = {
       "prompt": "Millions of Germans ______ from Europe to America in the 19th century.",
       "options": [
         {
-          "key": "B",
-          "text": "emigrated"
-        },
-        {
           "key": "A",
           "text": "emigrate"
         },
@@ -7564,10 +7660,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "Just wear something ______ to our party; we don’t have a dress code.",
       "options": [
-        {
-          "key": "B",
-          "text": "casual"
-        },
         {
           "key": "A",
           "text": "causal"
@@ -7600,10 +7692,6 @@ window.GE_DATA = {
           "text": "contend"
         },
         {
-          "key": "A",
-          "text": "contend"
-        },
-        {
           "key": "B",
           "text": "content"
         },
@@ -7631,10 +7719,6 @@ window.GE_DATA = {
           "text": "immortal"
         },
         {
-          "key": "A",
-          "text": "immortal"
-        },
-        {
           "key": "B",
           "text": "immoral"
         },
@@ -7657,10 +7741,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "He ______ on the sofa in order to read the newspaper comfortably.",
       "options": [
-        {
-          "key": "B",
-          "text": "reclined"
-        },
         {
           "key": "A",
           "text": "declined"
@@ -7693,10 +7773,6 @@ window.GE_DATA = {
           "text": "exclaimed"
         },
         {
-          "key": "A",
-          "text": "exclaimed"
-        },
-        {
           "key": "B",
           "text": "claimed"
         },
@@ -7724,10 +7800,6 @@ window.GE_DATA = {
           "text": "rejected"
         },
         {
-          "key": "A",
-          "text": "rejected"
-        },
-        {
           "key": "B",
           "text": "ejected"
         },
@@ -7750,10 +7822,6 @@ window.GE_DATA = {
       "type": "mcq",
       "prompt": "We cannot ______ very much from these figures. We need further information to support the theory.",
       "options": [
-        {
-          "key": "B",
-          "text": "deduce"
-        },
         {
           "key": "A",
           "text": "induce"
@@ -8502,6 +8570,1095 @@ window.GE_DATA = {
       ],
       "answer": "A",
       "source": "Suppl_Adverbial Clause(Exam skills book).docx"
+    },
+    {
+      "id": "cet-example-render-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "We are going to __________ them economic assistance.",
+      "answer": "render",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-render-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The power of the ocean was beautifully __________ in the poem.",
+      "answer": "rendered",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-precaution-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "You should take an umbrella just as a __________.",
+      "answer": "precaution",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-idle-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A group of __________ urchins had taken possession of the door-steps.",
+      "answer": "idle",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-idle-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "To be __________ sometimes is agreeable, but to be idle all the time might become monotonous.",
+      "answer": "idle",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-identify-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Please __________ the registered trademark.",
+      "answer": "identify",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-identify-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The test can __________ the presence of abnormalities in the unborn child.",
+      "answer": "identify",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-poverty-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Beware of the __________ gap trap.",
+      "answer": "poverty",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-resistant-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A healthy diet creates a body __________ to disease.",
+      "answer": "resistant",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-resolve-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Intensive efforts are being made to __________ the dispute.",
+      "answer": "resolve",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-resolve-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He __________ that nothing should hold him back.",
+      "answer": "resolved",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-barrel-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Beer swilled around the bottom of the __________.",
+      "answer": "barrel",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-bargain-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Apples were on sale and the people snapped up the __________.",
+      "answer": "bargain",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-bargain-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The salesman refused to __________ over the price.",
+      "answer": "bargain",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-coarse-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Homespun is a cloth of __________ weave.",
+      "answer": "coarse",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-coach-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The __________ is bringing on some girls in the reserve team.",
+      "answer": "coach",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-coach-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The __________ was full, so a relief was put on.",
+      "answer": "coach",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-code-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Managers are expected to comply with the company's __________ of conduct.",
+      "answer": "code",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-code-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The Highway __________ has been carried out.",
+      "answer": "Code",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-coil-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The birds are entangled in the __________ of a net.",
+      "answer": "coil",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-coil-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The snake __________ itself around the tree.",
+      "answer": "coiled",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-adult-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "These films are suitable for __________ only.",
+      "answer": "adults",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-advertise-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "It was time to __________ our cause instead of our cars.",
+      "answer": "advertise",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-advertisement-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A lot of people replied to our __________.",
+      "answer": "advertisement",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-agency-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I work in a tourist __________.",
+      "answer": "agency",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-focus-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He __________ the sun's rays on the paper with a burning glass.",
+      "answer": "focused",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-focus-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He always wants to be the __________ of attention.",
+      "answer": "focus",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-debate-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "After a long __________ the bill was passed.",
+      "answer": "debate",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-debt-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He promised to pay his __________ within a month.",
+      "answer": "debt",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-decade-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Prices have risen steadily during the past __________.",
+      "answer": "decade",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-enclose-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Farmers often __________ their land with hedges.",
+      "answer": "enclose",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-enclose-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I __________ herewith two copies of the contract.",
+      "answer": "enclose",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-encounter-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "If both participate, it may be an actual __________ of bodiless consciousness.",
+      "answer": "encounter",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-encounter-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I __________ an old friend at Rome.",
+      "answer": "encountered",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-globe-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Magellan was the first person to circumnavigate the __________.",
+      "answer": "globe",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-global-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The green campaign is a __________ phenomenon.",
+      "answer": "global",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-scan-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The doctors gave him an ultrasonic brain __________.",
+      "answer": "scan",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-scandal-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A crime or __________ brings much notoriety to those involved in it.",
+      "answer": "scandal",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-significance-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He puzzled out the __________ of the statement.",
+      "answer": "significance",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-significance-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "In modern anthropology, animism as a theory has little __________, other than historical.",
+      "answer": "significance",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-subsequent-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The chairman will be pleased to discuss the matter with you __________ to lunch.",
+      "answer": "subsequent",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-subsequent-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "__________ events proved me wrong.",
+      "answer": "Subsequent",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-virtue-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Fidelity to engagement is a __________.",
+      "answer": "virtue",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-virtue-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Meekness is a __________ he appreciates in his wife.",
+      "answer": "virtue",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-virtual-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A __________ state of war exists between the two countries.",
+      "answer": "virtual",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-orient-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I need some time to __________ my thinking.",
+      "answer": "orient",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-orient-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "They love paintings from the __________.",
+      "answer": "Orient",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-moisture-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The plants absorb __________ from the soil.",
+      "answer": "moisture",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-promote-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "They discussed how to __________ cooperation between the two countries.",
+      "answer": "promote",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-promote-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He has been __________ to general manager.",
+      "answer": "promoted",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-region-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I guess there are much fewer people in the Arctic __________ than here.",
+      "answer": "regions",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-region-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The __________ near the erupting volcano was evacuated rapidly.",
+      "answer": "region",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-register-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "You must __________ as a member first.",
+      "answer": "register",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-register-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "No __________ of his death was found.",
+      "answer": "register",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-stable-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Markets are flourishing and prices are __________.",
+      "answer": "stable",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-sophisticated-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "She is such a __________ woman that she saw through his trick at the first sight.",
+      "answer": "sophisticated",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-sophisticated-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The publisher's techniques for the promotion of his books have become increasingly __________ since the 1950s.",
+      "answer": "sophisticated",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-splendid-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "My kid sister has a __________ memory.",
+      "answer": "splendid",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-splendid-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The royal couple appeared in __________ array.",
+      "answer": "splendid",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-cancel-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I've lost my credit card, so I have to go to the bank to __________ it.",
+      "answer": "cancel",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-variable-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Prices are __________ according to the rate of exchange.",
+      "answer": "variable",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-variable-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "His mood is as __________ as the weather.",
+      "answer": "variable",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prospect-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He has good __________.",
+      "answer": "prospects",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prospect-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "What do you think about the marketing __________?",
+      "answer": "prospect",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prosperity-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The empire was on the wane after its period of __________.",
+      "answer": "prosperity",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prosperity-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "__________ destroys fools and endangers the wise.",
+      "answer": "Prosperity",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-aspect-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "This is only one __________ of the problem.",
+      "answer": "aspect",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-aspect-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The building has a southern __________.",
+      "answer": "aspect",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-core-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He ate the plum, and threw the __________ away.",
+      "answer": "core",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-core-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The __________ of our appeal is freedom of speech.",
+      "answer": "core",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-maintain-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "It is absolutely vital that food supplies should be __________.",
+      "answer": "maintained",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-maintain-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "It is clearly illogical to __________ such a proposition.",
+      "answer": "maintain",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-mainland-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The island is joined to the __________ by a bridge.",
+      "answer": "mainland",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-mainland-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Hawaii and Alaska are not on the __________ of the United States.",
+      "answer": "mainland",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-discipline-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "She is strict in the matter of __________.",
+      "answer": "discipline",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-discipline-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "A little __________ would do him a world of good.",
+      "answer": "discipline",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-domestic-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Washington responded by freezing the price of __________ oil.",
+      "answer": "domestic",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-domestic-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "My value for __________ tranquility should much exceed theirs.",
+      "answer": "domestic",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-constant-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "In our world nothing seems __________.",
+      "answer": "constant",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-constant-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The speed of light is an important __________.",
+      "answer": "constant",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-cliff-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The sea had undermined the __________.",
+      "answer": "cliff",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-authority-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "We see him as an __________ on the subject.",
+      "answer": "authority",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-authority-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The new building must be financed by the local __________.",
+      "answer": "authority",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-audio-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Students is very interested in the __________-visual instruction.",
+      "answer": "audio",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-attitude-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "She shows a very positive __________ to her work.",
+      "answer": "attitude",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-community-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Everyone should invest some time in __________ service.",
+      "answer": "community",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-community-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The welfare of the __________ is the same as the welfare of its members.",
+      "answer": "community",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-comment-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He made no __________ on our proposal.",
+      "answer": "comments",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-comment-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He __________ that it was an excellent film.",
+      "answer": "commented",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-distinguish-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Speeches __________ human beings from animals.",
+      "answer": "distinguish",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-distress-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I pray that you will have pity on my __________.",
+      "answer": "distress",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-distress-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He couldn't __________ her with his own terrible dilemma.",
+      "answer": "distress",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-facility-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Certainly geothermometry will be used with greater __________ in sub-soil exploration and in detecting migrant fluids.",
+      "answer": "facility",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-faculty-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "This boy has a __________ of making friends easily.",
+      "answer": "faculty",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-faculty-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He is the dean of the __________ of Medicine.",
+      "answer": "Faculty",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-mixture-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "You need a spoon to beat the __________ smooth.",
+      "answer": "mixture",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-mixture-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Air is a __________, not a compound of gases.",
+      "answer": "mixture",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-mood-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "I'm not in the __________ to disagree with you.",
+      "answer": "mood",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-moral-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "His behavior transgressed the __________ rules of the social conduct.",
+      "answer": "moral",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prominent-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He is a __________ scholar in the field of linguistics.",
+      "answer": "prominent",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-substance-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The emery is a hard metallic __________.",
+      "answer": "substance",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-substance-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "There is not anything of real __________ in their book.",
+      "answer": "substance",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-substantial-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "__________ profits accrue when sales take off.",
+      "answer": "Substantial",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-substantial-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Those workers have built many __________ buildings in the recent years.",
+      "answer": "substantial",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prompt-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Science and technology has __________ the rapid development of modern society.",
+      "answer": "prompted",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-prompt-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Thank you for your __________ reply to our telegram.",
+      "answer": "prompt",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-vivid-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Dickens’ novels are full of __________ characterization.",
+      "answer": "vivid",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-vocabulary-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "If your __________ is limited your chances of success are limited.",
+      "answer": "vocabulary",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-venture-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The hi-tech industry attracts much __________ capital.",
+      "answer": "venture",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-venture-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Don't __________ into the jungle without a guide.",
+      "answer": "venture",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-version-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The new __________ of this dictionary is not in use yet.",
+      "answer": "version",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-version-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The book was translated into many __________ and sold all over the world.",
+      "answer": "versions",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-waist-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "If the skirt is too big, we can take in the __________.",
+      "answer": "waist",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-weld-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "__________ abandoned tools onto the wheel.",
+      "answer": "Weld",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-weld-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "His job is to __________ parts together.",
+      "answer": "weld",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-yawn-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "His long boring story made me __________.",
+      "answer": "yawn",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-yield-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "We' ve already made it clear that we will not __________ to pressure.",
+      "answer": "yield",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-yield-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "Wheat __________ doubled last year.",
+      "answer": "yields",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-zone-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The Norwegians live in a comparatively cold __________.",
+      "answer": "zone",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-strategy-1",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "He is an expert in military __________.",
+      "answer": "strategy",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
+    },
+    {
+      "id": "cet-example-strategy-2",
+      "part": "bonus",
+      "section": "CET Example Sentences",
+      "type": "fill",
+      "prompt": "The __________ was designed to wear down the enemy's resistance.",
+      "answer": "strategy",
+      "source": "Suppl_CET band 4 Vocab Unit 5-6.docx"
     },
     {
       "id": "u60-1",

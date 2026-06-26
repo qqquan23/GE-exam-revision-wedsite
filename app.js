@@ -77,6 +77,8 @@ function renderWordskill() {
         <div class="flash-card">
           <strong>${item.term} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
           <span>${item.definition}</span>
+          ${item.forms?.length ? `<span><b>Forms:</b> ${item.forms.join(", ")}</span>` : ""}
+          ${item.usage?.length ? `<span><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}
           <small>${item.unit} · 需要背 definition</small>
         </div>
       `).join("")}
@@ -88,6 +90,8 @@ function renderWordskill() {
         <div class="flash-card change-card">
           <strong>${item.word || "word"} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
           <span>${item.meaning}</span>
+          ${item.forms?.length ? `<span><b>Related forms:</b> ${item.forms.join(", ")}</span>` : ""}
+          ${item.usage?.length ? `<span><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}
           <small>${item.example}</small>
         </div>
       `).join("")}

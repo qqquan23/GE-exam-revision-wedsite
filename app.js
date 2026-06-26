@@ -76,7 +76,6 @@ function renderWordskill() {
       ${study.glossary.map((item) => `
         <div class="flash-card">
           <strong>${item.term} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
-          ${item.definitionPrompt ? `<span class="wordskill-chip definition-chip"><b>Definition Q:</b> ${item.definitionPrompt}</span>` : ""}
           <span class="wordskill-chip meaning-chip"><b>Definition:</b> ${item.definition}</span>
           ${item.forms?.length ? `<span class="wordskill-chip forms-chip"><b>Forms:</b> ${item.forms.join(", ")}</span>` : ""}
           ${item.usage?.length ? `<span class="wordskill-chip usage-chip"><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}

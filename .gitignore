@@ -1,0 +1,10 @@
+.agents/
+.codex/
+.git/
+tools/
+*.doc
+*.docx
+*.pptx
+~$*
+extracted_sources.json
+cet_doc_extracted.txt

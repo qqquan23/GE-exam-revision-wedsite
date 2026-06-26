@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F5 GE Exam Revision</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <button class="brand nav-button" type="button" data-page="home" aria-label="F5 GE Exam Revision home">
+        <span class="brand-mark">GE</span>
+        <span>
+          <strong>F5 GE Exam Revision</strong>
+          <small>2nd Sem 2025</small>
+        </span>
+      </button>
+      <nav class="nav" aria-label="revision pages">
+        <button class="nav-button active" type="button" data-page="home">首頁</button>
+        <button class="nav-button" type="button" data-page="coverage">範圍</button>
+        <button class="nav-button" type="button" data-page="mindset">Mindset</button>
+        <button class="nav-button" type="button" data-page="wordskill">Wordskill</button>
+        <button class="nav-button" type="button" data-page="decoding">Decoding</button>
+        <button class="nav-button" type="button" data-page="grammar">Grammar</button>
+        <button class="nav-button" type="button" data-page="ppt">PPT</button>
+        <button class="nav-button" type="button" data-page="u60">U60</button>
+        <button class="nav-button" type="button" data-page="cet">CET</button>
+        <button class="nav-button" type="button" data-page="examskill">ExamSkill</button>
+        <button class="nav-button" type="button" data-page="quiz">測驗站</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="home" class="hero app-page active">
+        <div class="hero-copy">
+          <p class="eyebrow">English exam cockpit</p>
+          <h1>GE Exam Revision</h1>
+          <p class="hero-sub">每個考試部分獨立頁面顯示：正卷、加分、背題、definition、詞形、grammar joining，一鍵切換，不用在長頁裏找。</p>
+          <div class="hero-actions">
+            <button class="primary-link nav-button" type="button" data-page="quiz">Start Quiz</button>
+            <button class="secondary-link nav-button" type="button" data-page="coverage">View Coverage</button>
+          </div>
+        </div>
+        <div class="hero-panel" aria-label="exam coverage summary">
+          <div><span class="metric">127</span><span>quiz items</span></div>
+          <div><span class="metric">6</span><span>main areas</span></div>
+          <div><span class="metric">3</span><span>bonus areas</span></div>
+        </div>
+      </section>
+
+      <section id="coverage" class="section app-page">
+        <div class="section-head">
+          <p class="eyebrow">homepage scope</p>
+          <h2>測驗與溫習範圍</h2>
+        </div>
+        <div id="coverageGrid" class="coverage-grid"></div>
+      </section>
+
+      <section id="mindset" class="section band app-page">
+        <div class="section-head">
+          <div>
+            <p class="eyebrow">main paper</p>
+            <h2>Mindset U8</h2>
+          </div>
+          <div class="toolbar">
+            <button id="coverMindset" type="button">Cover all</button>
+            <button id="revealMindset" type="button">Reveal all</button>
+          </div>
+        </div>
+        <article class="panel wide">
+          <h3>詞形表：可點擊遮住 / 揭開</h3>
+          <div id="mindsetTable" class="table-wrap"></div>
+        </article>
+        <article class="panel wide page-stack">
+          <h3>Mindset 專門練習題</h3>
+          <div id="mindsetPractice"></div>
+        </article>
+      </section>
+
+      <section id="wordskill" class="section app-page">
+        <div class="section-head">
+          <p class="eyebrow">main paper</p>
+          <h2>Word Skills U45-46</h2>
+        </div>
+        <article class="panel">
+          <h3>完整溫習：definition、表格詞、spotlight、fill-in、Q&A</h3>
+          <div id="wordskillCards" class="flash-grid"></div>
+        </article>
+      </section>
+
+      <section id="decoding" class="section band app-page">
+        <div class="section-head">
+          <p class="eyebrow">main paper</p>
+          <h2>Decoding Everyday English</h2>
+        </div>
+        <div id="decodingPage"></div>
+      </section>
+
+      <section id="grammar" class="section band app-page">
+        <div class="section-head">
+          <p class="eyebrow">main paper</p>
+          <h2>Adverbial Clause & Participles</h2>
+        </div>
+        <div class="two-col">
+          <article class="panel">
+            <h3>Adverbial Clause 分類知識點</h3>
+            <div id="adverbialRules" class="rule-list"></div>
+          </article>
+          <article class="panel">
+            <h3>Participles 時態 / 語態變化與用法</h3>
+            <div id="participleRules" class="rule-list"></div>
+          </article>
+        </div>
+      </section>
+
+      <section id="ppt" class="section app-page">
+        <div class="section-head">
+          <p class="eyebrow">main paper</p>
+          <h2>Revision PPT 題目溫習</h2>
+        </div>
+        <div id="pptPage"></div>
+      </section>
+
+      <section id="u60" class="section app-page">
+        <div class="section-head">
+          <p class="eyebrow">bonus paper</p>
+          <h2>Word Skills Unit 60</h2>
+        </div>
+        <div id="u60Page"></div>
+      </section>
+
+      <section id="cet" class="section band app-page">
+        <div class="section-head">
+          <p class="eyebrow">bonus paper</p>
+          <h2>CET Band 4 Unit 5 & 6</h2>
+        </div>
+        <div id="cetPage"></div>
+      </section>
+
+      <section id="examskill" class="section app-page">
+        <div class="section-head">
+          <p class="eyebrow">bonus paper</p>
+          <h2>Exam Skills Book: Adverbial Clause</h2>
+        </div>
+        <div id="examSkillPage"></div>
+      </section>
+
+      <section id="quiz" class="section quiz-section app-page">
+        <div class="section-head">
+          <p class="eyebrow">quiz station</p>
+          <h2>測驗站</h2>
+        </div>
+        <div class="quiz-shell">
+          <aside class="quiz-controls">
+            <label>
+              Paper
+              <select id="partFilter">
+                <option value="all">All</option>
+                <option value="main">正卷</option>
+                <option value="bonus">加分</option>
+              </select>
+            </label>
+            <label>
+              Section
+              <select id="sectionFilter"></select>
+            </label>
+            <label>
+              Type
+              <select id="typeFilter">
+                <option value="all">All</option>
+                <option value="mcq">MCQ</option>
+                <option value="fill">Fill in</option>
+                <option value="definition">Definition</option>
+                <option value="open">Open / Joining</option>
+              </select>
+            </label>
+            <button id="newQuiz" class="full-button" type="button">New set</button>
+            <div class="score-box">
+              <span id="scoreText">0 / 0</span>
+              <small>score</small>
+            </div>
+          </aside>
+          <div id="quizList" class="quiz-list"></div>
+        </div>
+      </section>
+    </main>
+
+    <script src="site-data.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>

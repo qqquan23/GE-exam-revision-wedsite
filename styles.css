@@ -415,6 +415,37 @@ td.covered::after {
   display: block;
 }
 
+.wordskill-chip {
+  margin-top: 7px;
+  padding: 8px 10px;
+  border-radius: 7px;
+  border: 1px solid transparent;
+}
+
+.definition-chip {
+  color: #20436c;
+  background: #eaf2ff;
+  border-color: #bfd7f7;
+}
+
+.meaning-chip {
+  color: #214b45;
+  background: #edf7f2;
+  border-color: #b8ddd3;
+}
+
+.forms-chip {
+  color: #5a3600;
+  background: #fff5d9;
+  border-color: #efd186;
+}
+
+.usage-chip {
+  color: #642a22;
+  background: #fff0ed;
+  border-color: #edbeb6;
+}
+
 .change-card {
   border-left-color: var(--gold);
 }

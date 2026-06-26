@@ -51,23 +51,25 @@ window.GE_DATA = {
       "unit": "Unit 45",
       "term": "resist",
       "cn": "反抗",
-      "definition": "refuse to accept sth and try to stop it happening resistance n",
+      "definition": "refuse to accept sth and try to stop it happening",
       "forms": [
         "resistance"
       ],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "r_____: refuse to accept sth and try to stop it happening"
     },
     {
       "unit": "Unit 45",
       "term": "enforce",
       "cn": "服從",
-      "definition": "make people obey sth; enforce the law, enforcement n",
+      "definition": "make people obey sth",
       "forms": [
         "enforcement"
       ],
       "usage": [
         "enforce the law, enforcement n"
-      ]
+      ],
+      "definitionPrompt": "e_____: make people obey sth"
     },
     {
       "unit": "Unit 45",
@@ -75,17 +77,19 @@ window.GE_DATA = {
       "cn": "強迫",
       "definition": "make sb accept sth against their wishes",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "i_____: make sb accept sth against their wishes"
     },
     {
       "unit": "Unit 45",
       "term": "pursue",
       "cn": "追求",
-      "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal",
+      "definition": "follow or try to achieve sth over a period of time",
       "forms": [],
       "usage": [
         "follow or try to achieve sth over a period of time: pursue a policy/goal"
-      ]
+      ],
+      "definitionPrompt": "p_____: follow or try to achieve sth over a period of time"
     },
     {
       "unit": "Unit 45",
@@ -93,17 +97,19 @@ window.GE_DATA = {
       "cn": "引起",
       "definition": "make sth happen",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "b_____ a_____: make sth happen"
     },
     {
       "unit": "Unit 45",
       "term": "subtle",
       "cn": "不易察覺",
-      "definition": "not easy to notice or understand; a subtle difference; OPP obvious",
+      "definition": "not easy to notice or understand",
       "forms": [],
       "usage": [
         "OPP obvious"
-      ]
+      ],
+      "definitionPrompt": "s_____: not easy to notice or understand"
     },
     {
       "unit": "Unit 45",
@@ -111,50 +117,55 @@ window.GE_DATA = {
       "cn": "促進",
       "definition": "make an action or process easier to achieve",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "f_____: make an action or process easier to achieve"
     },
     {
       "unit": "Unit 45",
       "term": "ongoing",
       "cn": "持續的",
-      "definition": "continuing to develop; an ongoing process/investigation",
+      "definition": "continuing to develop",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "o_____: continuing to develop"
     },
     {
       "unit": "Unit 45",
       "term": "consultation",
       "cn": "咨詢",
-      "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee",
+      "definition": "the act of discussing sth before making a decision",
       "forms": [
         "sb",
         "consultative"
       ],
       "usage": [
         "consultative adj: a consultative process/committee"
-      ]
+      ],
+      "definitionPrompt": "c_____: the act of discussing sth before making a decision"
     },
     {
       "unit": "Unit 46",
       "term": "implement",
       "cn": "實施",
-      "definition": "make sth that has been decided start to happen SYN put into practice; implementation n",
+      "definition": "make sth that has been decided start to happen",
       "forms": [
         "implementation"
       ],
       "usage": [
         "make sth that has been decided start to happen SYN put into practice"
-      ]
+      ],
+      "definitionPrompt": "i_____: make sth that has been decided start to happen"
     },
     {
       "unit": "Unit 46",
       "term": "conserve",
       "cn": "節約",
-      "definition": "avoid wasting sth conservation n",
+      "definition": "avoid wasting sth",
       "forms": [
         "conservation"
       ],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "c_____: avoid wasting sth"
     },
     {
       "unit": "Unit 46",
@@ -162,36 +173,40 @@ window.GE_DATA = {
       "cn": "轉變",
       "definition": "change or make sth change from using one thing to using another",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "s_____: change or make sth change from using one thing to using another"
     },
     {
       "unit": "Unit 46",
       "term": "-saving",
       "cn": "節約的",
-      "definition": "not wasting anything; energy-saving, a labour-saving device",
+      "definition": "not wasting anything",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "-s_____: not wasting anything"
     },
     {
       "unit": "Unit 46",
       "term": "eco-",
       "cn": "生態的",
-      "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster",
+      "definition": "(short for_____) relating to the environment",
       "forms": [],
       "usage": [
         "(short for ecology/ecological) relating to the environment: an eco-disaster"
-      ]
+      ],
+      "definitionPrompt": "e_____ :(short for_____) relating to the environment"
     },
     {
       "unit": "Unit 46",
       "term": "consumption",
       "cn": "消耗",
-      "definition": "the act of using energy, food or materials. A person is a consumer. consume v",
+      "definition": "the act of using energy, food or materials",
       "forms": [
         "consume",
         "consumer"
       ],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "c_____: the act of using energy, food or materials"
     },
     {
       "unit": "Unit 46",
@@ -199,7 +214,8 @@ window.GE_DATA = {
       "cn": "節約",
       "definition": "an amount of sth, such as money or time, that you do not need to spend or use",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "s_____: an amount of sth, such as money or time, that you do not need to spend or use"
     },
     {
       "unit": "Unit 46",
@@ -207,29 +223,32 @@ window.GE_DATA = {
       "cn": "家用電器",
       "definition": "a machine you use at home, e.g. a fridge, a washing machine",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "a_____: a machine you use at home, e.g. a fridge, a washing machine"
     },
     {
       "unit": "Unit 46",
       "term": "on standby",
       "cn": "待機",
-      "definition": "If a TV is on standby, it is connected to the power supply but is not in use.",
+      "definition": "If a TV is _____, it is connected to the power supply but is not in use.",
       "forms": [],
       "usage": [
         "If a TV is on standby, it is connected to the power supply but is not in use"
-      ]
+      ],
+      "definitionPrompt": "o_____ s_____: If a TV is _____, it is connected to the power supply but is not in use."
     },
     {
       "unit": "Unit 46",
       "term": "charge (sth up)",
       "cn": "充電",
-      "definition": "pass electricity through sth to store it there charger n",
+      "definition": "pass electricity through sth to store it there",
       "forms": [
         "charger"
       ],
       "usage": [
         "pass electricity through sth to store it there charger n"
-      ]
+      ],
+      "definitionPrompt": "c_____: pass electricity through sth to store it there"
     },
     {
       "unit": "Unit 46",
@@ -237,17 +256,19 @@ window.GE_DATA = {
       "cn": "滾筒乾衣機",
       "definition": "a machine that uses hot air to dry clothes",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "t_____ d_____: a machine that uses hot air to dry clothes"
     },
     {
       "unit": "Unit 46",
       "term": "dispose of sth",
       "cn": "丟棄",
-      "definition": "get rid of sth that you do not want or cannot keep disposal n",
+      "definition": "get rid of sth that you do not want or cannot keep",
       "forms": [
         "disposal"
       ],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "d_____ o_____: get rid of sth that you do not want or cannot keep"
     },
     {
       "unit": "Unit 46",
@@ -255,25 +276,28 @@ window.GE_DATA = {
       "cn": "垃圾堆填區",
       "definition": "an area of land where large amounts of rubbish are buried",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "l_____: an area of land where large amounts of rubbish are buried"
     },
     {
       "unit": "Unit 46",
       "term": "toxic",
       "cn": "有毒的",
-      "definition": "poisonous; toxic chemicals/gases/substances",
+      "definition": "poisonous",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "t_____: poisonous"
     },
     {
       "unit": "Unit 46",
       "term": "better still",
       "cn": "更好的是",
-      "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still",
+      "definition": "_____ is used here and with other comparative adjectives to make a comparison stronger",
       "forms": [],
       "usage": [
         "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
-      ]
+      ],
+      "definitionPrompt": "b_____: _____ is used here and with other comparative adjectives to make a comparison stronger"
     },
     {
       "unit": "Unit 46",
@@ -281,7 +305,8 @@ window.GE_DATA = {
       "cn": "監測",
       "definition": "watch and check sth over a period of time to see how it develops or changes",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "m_____: watch and check sth over a period of time to see how it develops or changes"
     },
     {
       "unit": "Unit 46",
@@ -289,17 +314,19 @@ window.GE_DATA = {
       "cn": "投資",
       "definition": "a thing that is worth buying because it will be useful and helpful",
       "forms": [],
-      "usage": []
+      "usage": [],
+      "definitionPrompt": "i_____: a thing that is worth buying because it will be useful and helpful"
     },
     {
       "unit": "Unit 46",
       "term": "generate",
       "cn": "產生",
-      "definition": "produce or create sth: generate electricity",
+      "definition": "produce or create sth",
       "forms": [],
       "usage": [
         "produce or create sth: generate electricity"
-      ]
+      ],
+      "definitionPrompt": "g_____: produce or create sth"
     }
   ],
   "wordskillStudy": {
@@ -308,23 +335,25 @@ window.GE_DATA = {
         "unit": "Unit 45",
         "term": "resist",
         "cn": "反抗",
-        "definition": "refuse to accept sth and try to stop it happening resistance n",
+        "definition": "refuse to accept sth and try to stop it happening",
         "forms": [
           "resistance"
         ],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "r_____: refuse to accept sth and try to stop it happening"
       },
       {
         "unit": "Unit 45",
         "term": "enforce",
         "cn": "服從",
-        "definition": "make people obey sth; enforce the law, enforcement n",
+        "definition": "make people obey sth",
         "forms": [
           "enforcement"
         ],
         "usage": [
           "enforce the law, enforcement n"
-        ]
+        ],
+        "definitionPrompt": "e_____: make people obey sth"
       },
       {
         "unit": "Unit 45",
@@ -332,17 +361,19 @@ window.GE_DATA = {
         "cn": "強迫",
         "definition": "make sb accept sth against their wishes",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "i_____: make sb accept sth against their wishes"
       },
       {
         "unit": "Unit 45",
         "term": "pursue",
         "cn": "追求",
-        "definition": "follow or try to achieve sth over a period of time: pursue a policy/goal",
+        "definition": "follow or try to achieve sth over a period of time",
         "forms": [],
         "usage": [
           "follow or try to achieve sth over a period of time: pursue a policy/goal"
-        ]
+        ],
+        "definitionPrompt": "p_____: follow or try to achieve sth over a period of time"
       },
       {
         "unit": "Unit 45",
@@ -350,17 +381,19 @@ window.GE_DATA = {
         "cn": "引起",
         "definition": "make sth happen",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "b_____ a_____: make sth happen"
       },
       {
         "unit": "Unit 45",
         "term": "subtle",
         "cn": "不易察覺",
-        "definition": "not easy to notice or understand; a subtle difference; OPP obvious",
+        "definition": "not easy to notice or understand",
         "forms": [],
         "usage": [
           "OPP obvious"
-        ]
+        ],
+        "definitionPrompt": "s_____: not easy to notice or understand"
       },
       {
         "unit": "Unit 45",
@@ -368,50 +401,55 @@ window.GE_DATA = {
         "cn": "促進",
         "definition": "make an action or process easier to achieve",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "f_____: make an action or process easier to achieve"
       },
       {
         "unit": "Unit 45",
         "term": "ongoing",
         "cn": "持續的",
-        "definition": "continuing to develop; an ongoing process/investigation",
+        "definition": "continuing to develop",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "o_____: continuing to develop"
       },
       {
         "unit": "Unit 45",
         "term": "consultation",
         "cn": "咨詢",
-        "definition": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee",
+        "definition": "the act of discussing sth before making a decision",
         "forms": [
           "sb",
           "consultative"
         ],
         "usage": [
           "consultative adj: a consultative process/committee"
-        ]
+        ],
+        "definitionPrompt": "c_____: the act of discussing sth before making a decision"
       },
       {
         "unit": "Unit 46",
         "term": "implement",
         "cn": "實施",
-        "definition": "make sth that has been decided start to happen SYN put into practice; implementation n",
+        "definition": "make sth that has been decided start to happen",
         "forms": [
           "implementation"
         ],
         "usage": [
           "make sth that has been decided start to happen SYN put into practice"
-        ]
+        ],
+        "definitionPrompt": "i_____: make sth that has been decided start to happen"
       },
       {
         "unit": "Unit 46",
         "term": "conserve",
         "cn": "節約",
-        "definition": "avoid wasting sth conservation n",
+        "definition": "avoid wasting sth",
         "forms": [
           "conservation"
         ],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "c_____: avoid wasting sth"
       },
       {
         "unit": "Unit 46",
@@ -419,36 +457,40 @@ window.GE_DATA = {
         "cn": "轉變",
         "definition": "change or make sth change from using one thing to using another",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "s_____: change or make sth change from using one thing to using another"
       },
       {
         "unit": "Unit 46",
         "term": "-saving",
         "cn": "節約的",
-        "definition": "not wasting anything; energy-saving, a labour-saving device",
+        "definition": "not wasting anything",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "-s_____: not wasting anything"
       },
       {
         "unit": "Unit 46",
         "term": "eco-",
         "cn": "生態的",
-        "definition": "(short for ecology/ecological) relating to the environment: an eco-disaster",
+        "definition": "(short for_____) relating to the environment",
         "forms": [],
         "usage": [
           "(short for ecology/ecological) relating to the environment: an eco-disaster"
-        ]
+        ],
+        "definitionPrompt": "e_____ :(short for_____) relating to the environment"
       },
       {
         "unit": "Unit 46",
         "term": "consumption",
         "cn": "消耗",
-        "definition": "the act of using energy, food or materials. A person is a consumer. consume v",
+        "definition": "the act of using energy, food or materials",
         "forms": [
           "consume",
           "consumer"
         ],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "c_____: the act of using energy, food or materials"
       },
       {
         "unit": "Unit 46",
@@ -456,7 +498,8 @@ window.GE_DATA = {
         "cn": "節約",
         "definition": "an amount of sth, such as money or time, that you do not need to spend or use",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "s_____: an amount of sth, such as money or time, that you do not need to spend or use"
       },
       {
         "unit": "Unit 46",
@@ -464,29 +507,32 @@ window.GE_DATA = {
         "cn": "家用電器",
         "definition": "a machine you use at home, e.g. a fridge, a washing machine",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "a_____: a machine you use at home, e.g. a fridge, a washing machine"
       },
       {
         "unit": "Unit 46",
         "term": "on standby",
         "cn": "待機",
-        "definition": "If a TV is on standby, it is connected to the power supply but is not in use.",
+        "definition": "If a TV is _____, it is connected to the power supply but is not in use.",
         "forms": [],
         "usage": [
           "If a TV is on standby, it is connected to the power supply but is not in use"
-        ]
+        ],
+        "definitionPrompt": "o_____ s_____: If a TV is _____, it is connected to the power supply but is not in use."
       },
       {
         "unit": "Unit 46",
         "term": "charge (sth up)",
         "cn": "充電",
-        "definition": "pass electricity through sth to store it there charger n",
+        "definition": "pass electricity through sth to store it there",
         "forms": [
           "charger"
         ],
         "usage": [
           "pass electricity through sth to store it there charger n"
-        ]
+        ],
+        "definitionPrompt": "c_____: pass electricity through sth to store it there"
       },
       {
         "unit": "Unit 46",
@@ -494,17 +540,19 @@ window.GE_DATA = {
         "cn": "滾筒乾衣機",
         "definition": "a machine that uses hot air to dry clothes",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "t_____ d_____: a machine that uses hot air to dry clothes"
       },
       {
         "unit": "Unit 46",
         "term": "dispose of sth",
         "cn": "丟棄",
-        "definition": "get rid of sth that you do not want or cannot keep disposal n",
+        "definition": "get rid of sth that you do not want or cannot keep",
         "forms": [
           "disposal"
         ],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "d_____ o_____: get rid of sth that you do not want or cannot keep"
       },
       {
         "unit": "Unit 46",
@@ -512,25 +560,28 @@ window.GE_DATA = {
         "cn": "垃圾堆填區",
         "definition": "an area of land where large amounts of rubbish are buried",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "l_____: an area of land where large amounts of rubbish are buried"
       },
       {
         "unit": "Unit 46",
         "term": "toxic",
         "cn": "有毒的",
-        "definition": "poisonous; toxic chemicals/gases/substances",
+        "definition": "poisonous",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "t_____: poisonous"
       },
       {
         "unit": "Unit 46",
         "term": "better still",
         "cn": "更好的是",
-        "definition": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still",
+        "definition": "_____ is used here and with other comparative adjectives to make a comparison stronger",
         "forms": [],
         "usage": [
           "Still is used here and with other comparative adjectives to make a comparison stronger: longer still"
-        ]
+        ],
+        "definitionPrompt": "b_____: _____ is used here and with other comparative adjectives to make a comparison stronger"
       },
       {
         "unit": "Unit 46",
@@ -538,7 +589,8 @@ window.GE_DATA = {
         "cn": "監測",
         "definition": "watch and check sth over a period of time to see how it develops or changes",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "m_____: watch and check sth over a period of time to see how it develops or changes"
       },
       {
         "unit": "Unit 46",
@@ -546,17 +598,19 @@ window.GE_DATA = {
         "cn": "投資",
         "definition": "a thing that is worth buying because it will be useful and helpful",
         "forms": [],
-        "usage": []
+        "usage": [],
+        "definitionPrompt": "i_____: a thing that is worth buying because it will be useful and helpful"
       },
       {
         "unit": "Unit 46",
         "term": "generate",
         "cn": "產生",
-        "definition": "produce or create sth: generate electricity",
+        "definition": "produce or create sth",
         "forms": [],
         "usage": [
           "produce or create sth: generate electricity"
-        ]
+        ],
+        "definitionPrompt": "g_____: produce or create sth"
       }
     ],
     "changeWords": [
@@ -5399,7 +5453,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "refuse to accept sth and try to stop it happening resistance n",
+      "prompt": "r_____: refuse to accept sth and try to stop it happening",
       "answer": "resist",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5408,7 +5462,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "make people obey sth; enforce the law, enforcement n",
+      "prompt": "e_____: make people obey sth",
       "answer": "enforce",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5417,7 +5471,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "make sb accept sth against their wishes",
+      "prompt": "i_____: make sb accept sth against their wishes",
       "answer": "impose sth (on/upon sb)",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5426,7 +5480,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "follow or try to achieve sth over a period of time: pursue a policy/goal",
+      "prompt": "p_____: follow or try to achieve sth over a period of time",
       "answer": "pursue",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5435,7 +5489,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "make sth happen",
+      "prompt": "b_____ a_____: make sth happen",
       "answer": "bring about",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5444,7 +5498,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "not easy to notice or understand; a subtle difference; OPP obvious",
+      "prompt": "s_____: not easy to notice or understand",
       "answer": "subtle",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5453,7 +5507,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "make an action or process easier to achieve",
+      "prompt": "f_____: make an action or process easier to achieve",
       "answer": "facilitate",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5462,7 +5516,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "continuing to develop; an ongoing process/investigation",
+      "prompt": "o_____: continuing to develop",
       "answer": "ongoing",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5471,7 +5525,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "the act of discussing sth before making a decision consult sb v; consultative adj: a consultative process/committee",
+      "prompt": "c_____: the act of discussing sth before making a decision",
       "answer": "consultation",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5480,7 +5534,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "make sth that has been decided start to happen SYN put into practice; implementation n",
+      "prompt": "i_____: make sth that has been decided start to happen",
       "answer": "implement",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5489,7 +5543,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "avoid wasting sth conservation n",
+      "prompt": "c_____: avoid wasting sth",
       "answer": "conserve",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5498,7 +5552,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "change or make sth change from using one thing to using another",
+      "prompt": "s_____: change or make sth change from using one thing to using another",
       "answer": "switch (to sth)",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5507,7 +5561,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "not wasting anything; energy-saving, a labour-saving device",
+      "prompt": "-s_____: not wasting anything",
       "answer": "-saving",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5516,7 +5570,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "(short for ecology/ecological) relating to the environment: an eco-disaster",
+      "prompt": "e_____ :(short for_____) relating to the environment",
       "answer": "eco-",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5525,7 +5579,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "the act of using energy, food or materials. A person is a consumer. consume v",
+      "prompt": "c_____: the act of using energy, food or materials",
       "answer": "consumption",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5534,7 +5588,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "an amount of sth, such as money or time, that you do not need to spend or use",
+      "prompt": "s_____: an amount of sth, such as money or time, that you do not need to spend or use",
       "answer": "saving",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5543,7 +5597,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "a machine you use at home, e.g. a fridge, a washing machine",
+      "prompt": "a_____: a machine you use at home, e.g. a fridge, a washing machine",
       "answer": "appliance",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5552,7 +5606,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "If a TV is on standby, it is connected to the power supply but is not in use.",
+      "prompt": "o_____ s_____: If a TV is _____, it is connected to the power supply but is not in use.",
       "answer": "on standby",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5561,7 +5615,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "pass electricity through sth to store it there charger n",
+      "prompt": "c_____: pass electricity through sth to store it there",
       "answer": "charge (sth up)",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5570,7 +5624,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "a machine that uses hot air to dry clothes",
+      "prompt": "t_____ d_____: a machine that uses hot air to dry clothes",
       "answer": "tumble dryer",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5579,7 +5633,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "get rid of sth that you do not want or cannot keep disposal n",
+      "prompt": "d_____ o_____: get rid of sth that you do not want or cannot keep",
       "answer": "dispose of sth",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5588,7 +5642,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "an area of land where large amounts of rubbish are buried",
+      "prompt": "l_____: an area of land where large amounts of rubbish are buried",
       "answer": "landfill (site)",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5597,7 +5651,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "poisonous; toxic chemicals/gases/substances",
+      "prompt": "t_____: poisonous",
       "answer": "toxic",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5606,7 +5660,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "Still is used here and with other comparative adjectives to make a comparison stronger: longer still",
+      "prompt": "b_____: _____ is used here and with other comparative adjectives to make a comparison stronger",
       "answer": "better still",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5615,7 +5669,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "watch and check sth over a period of time to see how it develops or changes",
+      "prompt": "m_____: watch and check sth over a period of time to see how it develops or changes",
       "answer": "monitor",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5624,7 +5678,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "a thing that is worth buying because it will be useful and helpful",
+      "prompt": "i_____: a thing that is worth buying because it will be useful and helpful",
       "answer": "investment",
       "source": "Wordskill unit 45-46.docx"
     },
@@ -5633,7 +5687,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "produce or create sth: generate electricity",
+      "prompt": "g_____: produce or create sth",
       "answer": "generate",
       "source": "Wordskill unit 45-46.docx"
     },

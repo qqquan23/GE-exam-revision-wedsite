@@ -174,6 +174,15 @@
                 <option value="open">Open / Joining</option>
               </select>
             </label>
+            <div class="question-count-control">
+              <label for="questionCount">Questions</label>
+              <div class="number-stepper">
+                <button id="decreaseQuestions" type="button" aria-label="Decrease question count" title="Decrease question count">&minus;</button>
+                <input id="questionCount" type="number" min="1" value="20" inputmode="numeric" aria-describedby="questionAvailability">
+                <button id="increaseQuestions" type="button" aria-label="Increase question count" title="Increase question count">&plus;</button>
+              </div>
+              <small id="questionAvailability"></small>
+            </div>
             <button id="newQuiz" class="full-button" type="button">New set</button>
             <div class="score-box">
               <span id="scoreText">0 / 0</span>

@@ -390,6 +390,27 @@ function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+function questionLimit(available) {
+  const input = byId("questionCount");
+  const parsed = Number.parseInt(input.value, 10);
+  const requested = Number.isFinite(parsed) ? parsed : 20;
+  const limit = Math.min(Math.max(requested, 1), Math.max(available, 1));
+  input.max = Math.max(available, 1);
+  input.value = limit;
+  input.disabled = available === 0;
+  byId("decreaseQuestions").disabled = available === 0 || limit <= 1;
+  byId("increaseQuestions").disabled = available === 0 || limit >= available;
+  byId("questionAvailability").textContent = `${available} available`;
+  return available === 0 ? 0 : limit;
+}
+
+function changeQuestionCount(amount) {
+  const input = byId("questionCount");
+  const current = Number.parseInt(input.value, 10) || 1;
+  input.value = current + amount;
+  renderQuiz();
+}
+
 function updateScore() {
   const total = answered.size;
   const score = Array.from(answered.values()).filter(Boolean).length;
@@ -451,7 +472,8 @@ function quizCard(item) {
 
 function renderQuiz() {
   answered = new Map();
-  activeItems = shuffle(filteredItems()).slice(0, 20);
+  const items = filteredItems();
+  activeItems = shuffle(items).slice(0, questionLimit(items.length));
   byId("quizList").innerHTML = activeItems.length
     ? activeItems.map(quizCard).join("")
     : `<article class="quiz-card">No items in this filter.</article>`;
@@ -491,6 +513,9 @@ function bindEvents() {
   ["partFilter", "sectionFilter", "typeFilter"].forEach((id) => {
     byId(id).addEventListener("change", renderQuiz);
   });
+  byId("questionCount").addEventListener("change", renderQuiz);
+  byId("decreaseQuestions").addEventListener("click", () => changeQuestionCount(-1));
+  byId("increaseQuestions").addEventListener("click", () => changeQuestionCount(1));
   byId("newQuiz").addEventListener("click", renderQuiz);
   window.addEventListener("hashchange", () => {
     const page = location.hash.replace("#", "") || "home";

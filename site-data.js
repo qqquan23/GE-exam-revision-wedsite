@@ -9906,6 +9906,24 @@ window.GE_DATA = {
     });
   });
 
+  const qnaAnswers = {
+    "ppt-9-wordskill-open-1": "Answer 1: Yes, I do. Saving energy directly reduces utility fees. For example, turning off unused lights and choosing LED bulbs cut monthly electricity bills. Answer 2: Yes, I agree with this slogan because using less electricity at home can really help us save lots of money every day.",
+    "ppt-13-mindset-open-2": "I like the Dragon Boat Festival the most because the boat races are thrilling and full of cultural meaning. Teams race hard on the river while crowds cheer loudly.",
+    "ppt-13-mindset-open-3": "Answer 1: I think Chinese New Year has become over-commercialized nowadays. Shopping promotions overshadow its original meaning of family reunion. Many people focus on buying gifts instead of staying with relatives. Answer 2: Yes, I really think Christmas is too commercial now. People buy too many expensive gifts and forget its true meaning."
+  };
+  const applyQnaAnswers = (items) => {
+    items.forEach((item) => {
+      if (qnaAnswers[item.id]) item.answer = qnaAnswers[item.id];
+    });
+  };
+  applyQnaAnswers(window.GE_DATA.mindsetStudy.pptPractice);
+  applyQnaAnswers(window.GE_DATA.quiz);
+  window.GE_DATA.pptStudy.slides.forEach((slide) => applyQnaAnswers(slide.items));
+  window.GE_DATA.wordskillStudy.qna = window.GE_DATA.wordskillStudy.qna.map((prompt) => ({
+    prompt,
+    answer: qnaAnswers["ppt-9-wordskill-open-1"]
+  }));
+
   const decodingAnswerCorrections = [
     { prompt: "Trade-ins Welcome", answer: "A" },
     { prompt: "PRESS ONCE", answer: "D" }

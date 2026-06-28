@@ -243,8 +243,8 @@ function renderWordskill() {
       <h4>20-word Q&A</h4>
       ${study.qna.map((item) => `
         <div class="flash-card">
-          <strong>${item}</strong>
-          <span>溫習方向：用 Word Skills U46 energy-saving / conserve / consumption / saving / appliance 等詞彙作答。</span>
+          <strong>${item.prompt}</strong>
+          ${answerToggle("Show answer", `<strong>${item.answer}</strong>`)}
         </div>
       `).join("")}
     </section>

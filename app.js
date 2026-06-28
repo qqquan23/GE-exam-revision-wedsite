@@ -488,16 +488,24 @@ function updateScore() {
   byId("scoreText").textContent = `${score} / ${total}`;
 }
 
+function acceptedMcqAnswers(item) {
+  return String(item.answer)
+    .split(/[\/,]/)
+    .map((answer) => answer.trim().toUpperCase())
+    .filter(Boolean);
+}
+
 function selectMcq(card, item, key) {
-  const correct = key === item.answer;
+  const accepted = acceptedMcqAnswers(item);
+  const correct = accepted.includes(key.toUpperCase());
   answered.set(item.id, correct);
   card.querySelectorAll(".option").forEach((button) => {
     const choice = button.dataset.key;
-    button.classList.toggle("correct", choice === item.answer);
+    button.classList.toggle("correct", accepted.includes(choice.toUpperCase()));
     button.classList.toggle("wrong", choice === key && !correct);
     button.disabled = true;
   });
-  card.querySelector(".feedback").textContent = correct ? "Correct" : `Answer: ${item.answer}`;
+  card.querySelector(".feedback").textContent = correct ? "Correct" : `Answer: ${accepted.join(" / ")}`;
   updateScore();
 }
 

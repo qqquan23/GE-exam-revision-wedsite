@@ -503,6 +503,28 @@ td.covered::after {
   font-size: 0.9rem;
 }
 
+.participle-note-group {
+  display: grid;
+  gap: 10px;
+}
+
+.participle-note-group h5 {
+  margin: 4px 0 0;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
+.participle-note-group > p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.participle-note-item small {
+  display: block;
+  margin-top: 8px;
+  line-height: 1.65;
+}
+
 .rule-item {
   padding: 14px;
   border: 1px solid var(--line);

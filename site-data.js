@@ -3002,6 +3002,89 @@ window.GE_DATA = {
       "cn": "被動 + 先完成：having been done，例如 having been taken。"
     }
   ],
+  "participleNotes": [
+    {
+      "title": "Notes: Participles as adjectives",
+      "items": [
+        {
+          "title": "1. A participle phrase goes after the noun it qualifies",
+          "cn": "當修飾名詞的分詞是一個片語時，分詞片語要放在被修飾的名詞後面。",
+          "examples": [
+            "The woman arguing with the hawker is Mrs. Tam.",
+            "The woman knocked down by a lorry died in hospital this morning."
+          ]
+        },
+        {
+          "title": "2. Present action vs completed action",
+          "cn": "現在分詞表示持續中的動作；過去分詞表示已完成的動作。",
+          "examples": [
+            "Look! People are running out the burning building.",
+            "It broke Mr. Chan's heart to see his burnt hut."
+          ]
+        },
+        {
+          "title": "3. Active meaning vs passive meaning",
+          "cn": "現在分詞通常有主動意思；過去分詞通常有被動意思。-ing 亦可表示帶來某種感受的人或事，-ed 表示接收到該感受的人。",
+          "examples": [
+            "More laboratory facilities are needed to find out the amount of synthetic hormones contained in frozen meat.",
+            "The film was boring. It made us feel bored.",
+            "The man is amusing. He always does funny things."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Notes: Participle phrases as adverbials",
+      "intro": "In using participle phrases as adverbials, pay attention to the following points.",
+      "items": [
+        {
+          "title": "1. Put not before the participle phrase",
+          "cn": "分詞片語的否定式是在片語前加 not。",
+          "examples": [
+            "She could not go with us because she had not completely recovered from her illness.",
+            "Not having completely recovered from her illness, she could not go with us."
+          ]
+        },
+        {
+          "title": "2. Keep a different subject",
+          "cn": "如果從句主語與主句主語不是同一人或事物，從句主語不能省略；若主語相同，才可省略並直接用分詞片語。",
+          "examples": [
+            "As it was a cold day, Mary put on her coat.",
+            "It being a cold day, Mary put on her coat.",
+            "As Mary felt cold, she put on her coat.",
+            "Feeling cold, Mary put on her coat."
+          ]
+        },
+        {
+          "title": "3. when/while + present participle",
+          "cn": "從句動詞是進行時時，可使用 when/while + 現在分詞。",
+          "examples": [
+            "Be careful when you are crossing the street.",
+            "Be careful when crossing the street."
+          ]
+        },
+        {
+          "title": "4. on + gerund for time",
+          "cn": "表示時間的分詞片語有時可改成 on + 動名詞，表示「一……就……」。",
+          "examples": [
+            "As soon as she heard the news, she collapsed.",
+            "Hearing the news, she collapsed.",
+            "On hearing the news, she collapsed."
+          ]
+        },
+        {
+          "title": "5. Avoid a dangling participle",
+          "cn": "分詞動作的邏輯主語應與主句主語相同，否則會形成懸垂分詞。但部分常用固定表達已被接受。",
+          "examples": [
+            "Reading the newspaper, I was shocked by the news of the brutal murder.",
+            "Generally speaking, a person's experience is in proportion to his age.",
+            "Beginning tomorrow, tickets for the concert will be available.",
+            "There will be five of us going."
+          ]
+        }
+      ]
+    }
+  ],
   "adverbialCn": {
     "when: periods of life / past time": "when = 當……時；也可講人生階段或過去某段時間。",
     "when = every time": "when = 每當；意思接近 every time。",

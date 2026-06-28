@@ -311,6 +311,22 @@ function renderRules() {
         </div>
       `).join("")}
     </section>
+    <section class="rule-group">
+      <h4>Notes from Participles.docx</h4>
+      ${data.participleNotes.map((group) => `
+        <div class="participle-note-group">
+          <h5>${group.title}</h5>
+          ${group.intro ? `<p>${group.intro}</p>` : ""}
+          ${group.items.map((item) => `
+            <div class="rule-item participle-note-item">
+              <b>${item.title}</b>
+              <p class="cn-note">${item.cn}</p>
+              <small>${item.examples.join("<br>")}</small>
+            </div>
+          `).join("")}
+        </div>
+      `).join("")}
+    </section>
   `;
 }
 

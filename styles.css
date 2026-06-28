@@ -584,6 +584,11 @@ td.covered::after {
   padding: 18px;
 }
 
+.confused-layout {
+  display: grid;
+  gap: 16px;
+}
+
 .full-span {
   grid-column: 1 / -1;
 }

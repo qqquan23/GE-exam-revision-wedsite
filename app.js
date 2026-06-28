@@ -385,6 +385,59 @@ function renderPptStudy() {
   `;
 }
 
+function renderConfusedWords() {
+  const vocab = data.confusedWordsVocab;
+  const questions = data.quiz.filter((item) => item.section === "Commonly-confused Words 3");
+  byId("confusedPage").innerHTML = `
+    <div class="confused-layout">
+      <article class="bonus-study">
+        <div class="bonus-study-head">
+          <span>${vocab.length}</span>
+          <div>
+            <h3>選項單詞詞彙表</h3>
+            <p>Commonly-confused words 3.docx</p>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead><tr><th>Word</th><th>Part of speech</th><th>中文意思</th></tr></thead>
+            <tbody>
+              ${vocab.map((item) => `
+                <tr>
+                  <td><strong>${item.word}</strong></td>
+                  <td>${item.pos}</td>
+                  <td>${item.meaning}</td>
+                </tr>
+              `).join("")}
+            </tbody>
+          </table>
+        </div>
+      </article>
+      <article class="bonus-study">
+        <div class="bonus-study-head">
+          <span>${questions.length}</span>
+          <div>
+            <h3>Commonly-confused Words 題目</h3>
+            <p>完整選項與答案</p>
+          </div>
+        </div>
+        <div class="exam-list">
+          ${questions.map((item, index) => {
+            const answer = item.options.find((option) => option.key === item.answer);
+            return `
+              <div class="exam-item">
+                <b>${index + 1}. ${item.prompt}</b>
+                <div class="mini-options">${item.options.map((option) => `<span>${option.key}. ${option.text}</span>`).join("")}</div>
+                ${answerToggle("Show answer", `<strong>${item.answer}. ${answer?.text || ""}</strong>`)}
+              </div>
+            `;
+          }).join("")}
+        </div>
+      </article>
+    </div>
+  `;
+}
+
 function markWrong(prompt, wrong) {
   if (!wrong || !prompt.includes(wrong)) return prompt;
   return prompt.replace(wrong, `<mark>${wrong}</mark>`);
@@ -788,6 +841,7 @@ renderWordskill();
 renderRules();
 renderDecoding();
 renderPptStudy();
+renderConfusedWords();
 renderBonusPages();
 renderFilters();
 renderQuiz();

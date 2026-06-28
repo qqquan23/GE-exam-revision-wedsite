@@ -118,6 +118,29 @@ const wordskillHeadwordPos = {
   "generate": "v."
 };
 
+const wordskillTermDisplay = {
+  "impose sth (on/upon sb)": {
+    word: "impose",
+    usage: "impose sth on/upon sb"
+  },
+  "switch (to sth)": {
+    word: "switch",
+    usage: "switch to sth"
+  },
+  "charge (sth up)": {
+    word: "charge",
+    usage: "charge sth up"
+  },
+  "dispose of sth": {
+    word: "dispose of",
+    usage: "dispose of sth"
+  },
+  "landfill (site)": {
+    word: "landfill",
+    usage: "landfill site"
+  }
+};
+
 const wordskillFormPos = {
   "resistance": "n.",
   "enforcement": "n.",
@@ -161,6 +184,11 @@ function taggedForms(item) {
   return forms.map((form) => taggedWord(form, wordskillFormPos[form] || "form"));
 }
 
+function wordskillUsage(item) {
+  const pattern = wordskillTermDisplay[item.term]?.usage;
+  return pattern ? [pattern, ...(item.usage || [])] : (item.usage || []);
+}
+
 function renderWordskill() {
   const study = data.wordskillStudy;
   byId("wordskillCards").innerHTML = `
@@ -168,10 +196,10 @@ function renderWordskill() {
       <h4>Glossary definitions</h4>
       ${study.glossary.map((item) => `
         <div class="flash-card">
-          <strong>${taggedWord(item.term, wordskillHeadwordPos[item.term] || "word")} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
+          <strong>${taggedWord(wordskillTermDisplay[item.term]?.word || item.term, wordskillHeadwordPos[item.term] || "word")} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
           <span class="wordskill-chip meaning-chip"><b>Definition:</b> ${item.definition}</span>
           ${taggedForms(item).length ? `<span class="wordskill-chip forms-chip"><b>Forms:</b> ${taggedForms(item).join(", ")}</span>` : ""}
-          ${item.usage?.length ? `<span class="wordskill-chip usage-chip"><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}
+          ${wordskillUsage(item).length ? `<span class="wordskill-chip usage-chip"><b>Usage:</b> ${wordskillUsage(item).join("; ")}</span>` : ""}
           <small>${item.unit} · 需要背 definition</small>
         </div>
       `).join("")}

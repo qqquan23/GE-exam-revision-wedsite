@@ -5472,7 +5472,7 @@ window.GE_DATA = {
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
       "prompt": "i_____: make sb accept sth against their wishes",
-      "answer": "impose sth (on/upon sb)",
+      "answer": "impose",
       "source": "Wordskill unit 45-46.docx"
     },
     {
@@ -5553,7 +5553,7 @@ window.GE_DATA = {
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
       "prompt": "s_____: change or make sth change from using one thing to using another",
-      "answer": "switch (to sth)",
+      "answer": "switch",
       "source": "Wordskill unit 45-46.docx"
     },
     {
@@ -5616,7 +5616,7 @@ window.GE_DATA = {
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
       "prompt": "c_____: pass electricity through sth to store it there",
-      "answer": "charge (sth up)",
+      "answer": "charge",
       "source": "Wordskill unit 45-46.docx"
     },
     {
@@ -5634,7 +5634,7 @@ window.GE_DATA = {
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
       "prompt": "d_____ o_____: get rid of sth that you do not want or cannot keep",
-      "answer": "dispose of sth",
+      "answer": "dispose of",
       "source": "Wordskill unit 45-46.docx"
     },
     {
@@ -5643,7 +5643,7 @@ window.GE_DATA = {
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
       "prompt": "l_____: an area of land where large amounts of rubbish are buried",
-      "answer": "landfill (site)",
+      "answer": "landfill",
       "source": "Wordskill unit 45-46.docx"
     },
     {

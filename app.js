@@ -47,17 +47,37 @@ function renderMindsetTable() {
 
 function renderMindsetPractice() {
   const study = data.mindsetStudy;
-  const all = [...study.docPractice, ...study.pptPractice];
+  const qas = study.pptPractice.filter((item) => item.section === "PPT Mindset Q&A");
+  const practice = [
+    ...study.docPractice,
+    ...study.pptPractice.filter((item) => item.section !== "PPT Mindset Q&A")
+  ];
   byId("mindsetPractice").innerHTML = `
-    <div class="exam-list">
-      ${all.map((item, idx) => `
-        <div class="exam-item">
-          <b>${idx + 1}. ${item.prompt}</b>
-          ${answerToggle("Show answer", `<strong>${item.answer}</strong>`)}
-          <small>${item.source}</small>
-        </div>
-      `).join("")}
-    </div>
+    <section class="mindset-practice-group">
+      <h4>專門練習題</h4>
+      <div class="exam-list">
+        ${practice.map((item, idx) => `
+          <div class="exam-item">
+            <b>${idx + 1}. ${item.prompt}</b>
+            ${answerToggle("Show answer", `<strong>${item.answer}</strong>`)}
+            <small>${item.source}</small>
+          </div>
+        `).join("")}
+      </div>
+    </section>
+    <section class="mindset-practice-group mindset-qa-group">
+      <h4>Mindset Q&A</h4>
+      <div class="exam-list">
+        ${qas.map((item, idx) => `
+          <div class="exam-item">
+            <span class="qa-label">Q&A · 20 words</span>
+            <b>${idx + 1}. ${item.prompt}</b>
+            ${answerToggle("Show answer guide", `<strong>${item.answer}</strong>`)}
+            <small>${item.source}</small>
+          </div>
+        `).join("")}
+      </div>
+    </section>
   `;
 }
 
@@ -68,6 +88,79 @@ function setMindsetCovered(covered) {
   });
 }
 
+const wordskillHeadwordPos = {
+  "resist": "v.",
+  "enforce": "v.",
+  "impose sth (on/upon sb)": "v.",
+  "pursue": "v.",
+  "bring about": "phr. v.",
+  "subtle": "adj.",
+  "facilitate": "v.",
+  "ongoing": "adj.",
+  "consultation": "n.",
+  "implement": "v.",
+  "conserve": "v.",
+  "switch (to sth)": "v.",
+  "-saving": "suffix",
+  "eco-": "prefix",
+  "consumption": "n.",
+  "saving": "n.",
+  "appliance": "n.",
+  "on standby": "phrase",
+  "charge (sth up)": "v.",
+  "tumble dryer": "n.",
+  "dispose of sth": "phr. v.",
+  "landfill (site)": "n.",
+  "toxic": "adj.",
+  "better still": "phrase",
+  "monitor": "v.",
+  "investment": "n.",
+  "generate": "v."
+};
+
+const wordskillFormPos = {
+  "resistance": "n.",
+  "enforcement": "n.",
+  "consult": "v.",
+  "consultant": "n.",
+  "consultative": "adj.",
+  "implementation": "n.",
+  "conservation": "n.",
+  "consume": "v.",
+  "consumer": "n.",
+  "charger": "n.",
+  "disposal": "n.",
+  "alteration": "n.",
+  "amendment": "n.",
+  "evolution": "n.",
+  "restoration": "n.",
+  "reversal": "n.",
+  "transformation": "n."
+};
+
+const changeWordMeta = {
+  "adapt to": { word: "adapt to", pos: "v." },
+  "altered": { word: "alter", pos: "v." },
+  "amending": { word: "amend", pos: "v." },
+  "evolved": { word: "evolve", pos: "v." },
+  "reform": { word: "reform", pos: "v. / n." },
+  "restore": { word: "restore", pos: "v." },
+  "reversed": { word: "reverse", pos: "v." },
+  "transformed": { word: "transform", pos: "v." },
+  "transition": { word: "transition", pos: "n." }
+};
+
+function taggedWord(word, pos) {
+  return `${word} <span class="word-pos">${pos}</span>`;
+}
+
+function taggedForms(item) {
+  const forms = item.term === "consultation"
+    ? ["consult", "consultant", "consultative"]
+    : (item.forms || []).filter((form) => form !== "sb");
+  return forms.map((form) => taggedWord(form, wordskillFormPos[form] || "form"));
+}
+
 function renderWordskill() {
   const study = data.wordskillStudy;
   byId("wordskillCards").innerHTML = `
@@ -75,9 +168,9 @@ function renderWordskill() {
       <h4>Glossary definitions</h4>
       ${study.glossary.map((item) => `
         <div class="flash-card">
-          <strong>${item.term} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
+          <strong>${taggedWord(item.term, wordskillHeadwordPos[item.term] || "word")} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
           <span class="wordskill-chip meaning-chip"><b>Definition:</b> ${item.definition}</span>
-          ${item.forms?.length ? `<span class="wordskill-chip forms-chip"><b>Forms:</b> ${item.forms.join(", ")}</span>` : ""}
+          ${taggedForms(item).length ? `<span class="wordskill-chip forms-chip"><b>Forms:</b> ${taggedForms(item).join(", ")}</span>` : ""}
           ${item.usage?.length ? `<span class="wordskill-chip usage-chip"><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}
           <small>${item.unit} · 需要背 definition</small>
         </div>
@@ -88,9 +181,9 @@ function renderWordskill() {
       <h4>Unit 45 change verbs</h4>
       ${study.changeWords.map((item) => `
         <div class="flash-card change-card">
-          <strong>${item.word || "word"} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
+          <strong>${taggedWord(changeWordMeta[item.word]?.word || item.word || "word", changeWordMeta[item.word]?.pos || "word")} ${item.cn ? `<small>(${item.cn})</small>` : ""}</strong>
           <span class="wordskill-chip meaning-chip">${item.meaning}</span>
-          ${item.forms?.length ? `<span class="wordskill-chip forms-chip"><b>Related forms:</b> ${item.forms.join(", ")}</span>` : ""}
+          ${item.forms?.length ? `<span class="wordskill-chip forms-chip"><b>Related forms:</b> ${item.forms.map((form) => taggedWord(form, wordskillFormPos[form] || "form")).join(", ")}</span>` : ""}
           ${item.usage?.length ? `<span class="wordskill-chip usage-chip"><b>Usage:</b> ${item.usage.join("; ")}</span>` : ""}
           <small>${item.example}</small>
         </div>

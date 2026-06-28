@@ -9819,3 +9819,60 @@ window.GE_DATA = {
     "Suppl_CET band 4 Vocab Unit 5-6.doc is a legacy binary .doc that could not be extracted with bundled libraries, so CET quiz items were generated."
   ]
 };
+
+// Teacher-verified answer corrections from the marked revision sheets.
+(() => {
+  const examSkillAnswers = {
+    1: "A", 2: "B", 3: "D", 4: "B", 5: "B", 6: "C", 7: "D",
+    8: "B", 9: "C", 10: "B", 11: "B", 12: "D", 13: "B", 14: "A",
+    15: "B", 16: "A", 17: "C", 18: "A", 19: "A", 20: "B", 21: "B",
+    22: "C", 23: "B", 24: "A", 25: "C", 26: "D", 27: "A"
+  };
+
+  window.GE_DATA.bonusStudy.examSkill.mcq.forEach((item) => {
+    item.answer = examSkillAnswers[item.number];
+  });
+  window.GE_DATA.quiz
+    .filter((item) => item.id.startsWith("supp-adverbial-"))
+    .forEach((item) => {
+      const number = Number(item.id.replace("supp-adverbial-", ""));
+      item.answer = examSkillAnswers[number];
+    });
+
+  const correctionWrongParts = {
+    1: "play",
+    2: "such",
+    3: "in",
+    4: "answering",
+    5: "at end",
+    6: "is left",
+    7: "student",
+    8: "come",
+    9: "eat",
+    10: "ruin",
+    11: "but",
+    12: "but",
+    13: "and",
+    14: "but",
+    15: "such",
+    16: "when",
+    17: "where",
+    18: "where",
+    19: "so",
+    20: "until"
+  };
+  window.GE_DATA.bonusStudy.examSkill.correction.forEach((item) => {
+    item.wrong = correctionWrongParts[item.number];
+    if (item.number === 6) {
+      item.answer = "Please call the station to make sure when the train is leaving.";
+    }
+  });
+
+  const tradeInPrompt = "Trade-ins Welcome";
+  window.GE_DATA.decodingStudy.items
+    .filter((item) => item.prompt.includes(tradeInPrompt))
+    .forEach((item) => { item.answer = "A"; });
+  window.GE_DATA.quiz
+    .filter((item) => item.prompt.includes(tradeInPrompt))
+    .forEach((item) => { item.answer = "A"; });
+})();

@@ -446,6 +446,36 @@ td.covered::after {
   border-color: #edbeb6;
 }
 
+.flash-card .word-pos {
+  display: inline;
+  margin-left: 3px;
+  color: #5d4678;
+  font-size: 0.76em;
+  font-weight: 850;
+}
+
+.mindset-practice-group {
+  display: grid;
+  gap: 10px;
+}
+
+.mindset-practice-group + .mindset-practice-group {
+  margin-top: 22px;
+  padding-top: 20px;
+  border-top: 1px solid var(--line);
+}
+
+.qa-label {
+  width: fit-content;
+  padding: 4px 7px;
+  border-radius: 6px;
+  color: #245f57;
+  background: #e4f2ed;
+  font-size: 0.74rem;
+  font-weight: 850;
+  text-transform: uppercase;
+}
+
 .change-card {
   border-left-color: var(--gold);
 }

@@ -390,6 +390,77 @@ function shuffle(items) {
   return [...items].sort(() => Math.random() - 0.5);
 }
 
+const fillBankSections = new Set([
+  "Mindset U8",
+  "PPT Mindset Fill-in",
+  "PPT Word Skills Fill-in",
+  "CET Example Sentences"
+]);
+
+const fillBaseForms = {
+  permission: "permit",
+  symbolises: "symbolic",
+  potential: "potential",
+  appreciatively: "appreciate",
+  varying: "variety",
+  occurred: "occur",
+  minor: "minor",
+  preventable: "prevent",
+  occasionally: "occasion",
+  spectacular: "spectacular",
+  appreciation: "appreciate",
+  symbolize: "symbolic",
+  variety: "variety",
+  varies: "variety",
+  permitted: "permit",
+  occur: "occur",
+  restore: "restore",
+  consumption: "consume",
+  ongoing: "ongoing",
+  dispose: "dispose",
+  implementing: "implement",
+  adapt: "adapt",
+  transformation: "transform",
+  reversed: "reverse",
+  "brought about": "bring about",
+  generated: "generate",
+  alter: "alter",
+  subtle: "subtle"
+};
+
+function slugify(value) {
+  return String(value).toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
+}
+
+function answerParts(item) {
+  if (!fillBankSections.has(item.section)) return [item.answer];
+  const blanks = (item.prompt.match(/_+/g) || []).length;
+  return blanks > 1
+    ? item.answer.split("/").map((part) => part.replace(/\s*\([^)]*\)\s*/g, "").trim())
+    : [item.answer];
+}
+
+function baseFormsForFill(item) {
+  if (!fillBankSections.has(item.section) || item.type !== "fill") return [];
+  if (item.section === "CET Example Sentences") {
+    const entry = data.bonusStudy.cet.items.find((candidate) =>
+      item.id.startsWith(`cet-example-${slugify(candidate.word)}-`)
+    );
+    return [entry?.word || item.answer];
+  }
+  return answerParts(item).map((part) => fillBaseForms[normalize(part)] || part);
+}
+
+function fillBankFor(item) {
+  const answers = baseFormsForFill(item);
+  if (!answers.length) return [];
+  const pool = data.quiz
+    .filter((candidate) => candidate.section === item.section && candidate.type === "fill")
+    .flatMap(baseFormsForFill);
+  const distractors = shuffle(Array.from(new Set(pool.filter((word) => !answers.includes(word)))));
+  return shuffle([...answers, ...distractors.slice(0, Math.max(0, 6 - answers.length))]);
+}
+
 function questionLimit(available) {
   const input = byId("questionCount");
   const parsed = Number.parseInt(input.value, 10);
@@ -431,15 +502,31 @@ function selectMcq(card, item, key) {
 }
 
 function submitText(card, item) {
-  const input = card.querySelector("input");
-  const correct = matchesAnswer(input.value, item.answer);
+  const inputs = Array.from(card.querySelectorAll("input"));
+  const answers = answerParts(item);
+  const correct = inputs.length > 1
+    ? inputs.every((input, index) => matchesAnswer(input.value, answers[index]))
+    : matchesAnswer(inputs[0].value, item.answer);
   answered.set(item.id, correct);
-  input.disabled = true;
+  inputs.forEach((input) => { input.disabled = true; });
+  card.querySelectorAll(".bank-word").forEach((button) => { button.disabled = true; });
   card.querySelector(".feedback").textContent = correct ? "Correct" : `Answer: ${item.answer}`;
   updateScore();
 }
 
 function quizCard(item) {
+  const bank = fillBankFor(item);
+  const inputs = answerParts(item).map((_, index) =>
+    `<input type="text" autocomplete="off" aria-label="answer${index ? ` ${index + 1}` : ""}">`
+  ).join("");
+  const fillBank = bank.length ? `
+    <div class="fill-bank">
+      <span>Fill-in bank <small>base forms</small></span>
+      <div class="fill-bank-options">
+        ${bank.map((word) => `<button class="bank-word" type="button" data-word="${word}">${word}</button>`).join("")}
+      </div>
+    </div>
+  ` : "";
   const options = item.type === "mcq" ? `
     <div class="options">
       ${(item.options || []).map((option) => `<button class="option" type="button" data-key="${option.key}">${option.key}. ${option.text}</button>`).join("")}
@@ -449,8 +536,9 @@ function quizCard(item) {
       <button class="check-answer" type="button">Reveal answer</button>
     </div>
   ` : `
+    ${fillBank}
     <div class="answer-row">
-      <input type="text" autocomplete="off" aria-label="answer">
+      <div class="fill-inputs">${inputs}</div>
       <button class="check-answer" type="button">Check</button>
     </div>
   `;
@@ -494,10 +582,23 @@ function renderQuiz() {
           updateScore();
         });
       } else {
-        check.addEventListener("click", () => submitText(card, item));
-        card.querySelector("input").addEventListener("keydown", (event) => {
-          if (event.key === "Enter") submitText(card, item);
+        const inputs = Array.from(card.querySelectorAll("input"));
+        inputs.forEach((input) => {
+          input.addEventListener("focus", () => { card.activeFillInput = input; });
+          input.addEventListener("keydown", (event) => {
+            if (event.key === "Enter") submitText(card, item);
+          });
         });
+        card.querySelectorAll(".bank-word").forEach((button) => {
+          button.addEventListener("click", () => {
+            const target = card.activeFillInput || inputs.find((input) => !input.value) || inputs[0];
+            target.value = button.dataset.word;
+            target.focus();
+            card.querySelectorAll(".bank-word").forEach((word) => word.classList.remove("selected"));
+            button.classList.add("selected");
+          });
+        });
+        check.addEventListener("click", () => submitText(card, item));
       }
     }
   });

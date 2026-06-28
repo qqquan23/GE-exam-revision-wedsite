@@ -818,6 +818,56 @@ input[type="number"] {
   padding: 18px;
 }
 
+.fill-bank {
+  display: grid;
+  gap: 8px;
+  margin-top: 14px;
+  padding: 12px;
+  border: 1px solid #d7c9ad;
+  border-radius: 8px;
+  background: #fffaf0;
+}
+
+.fill-bank > span {
+  color: var(--ink);
+  font-size: 0.84rem;
+  font-weight: 850;
+}
+
+.fill-bank > span small {
+  margin-left: 5px;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.fill-bank-options {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.bank-word {
+  min-height: 34px;
+  padding: 6px 10px;
+  border-color: #c3b38f;
+  background: #fff;
+  color: #57451f;
+  font-size: 0.82rem;
+}
+
+.bank-word:hover,
+.bank-word.selected {
+  border-color: #8f6821;
+  background: #f2dfb5;
+}
+
+.fill-inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 8px;
+  width: 100%;
+}
+
 .quiz-meta {
   display: flex;
   flex-wrap: wrap;

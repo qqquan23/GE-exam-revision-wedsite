@@ -1369,7 +1369,7 @@ window.GE_DATA = {
     {
       "no": "4",
       "key": "permit (v.) \n允许",
-      "noun": "permission",
+      "noun": "permission\npermit（許可證）",
       "verb": "permit",
       "adjective": "permissible",
       "adverb": "permissibly"

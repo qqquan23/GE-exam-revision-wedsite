@@ -5660,7 +5660,7 @@ window.GE_DATA = {
       "part": "main",
       "section": "Word Skills U45-46 Definitions",
       "type": "definition",
-      "prompt": "b_____: _____ is used here and with other comparative adjectives to make a comparison stronger",
+      "prompt": "b_____ s_____: s_____ is used here and with other comparative adjectives to make a comparison stronger",
       "answer": "better still",
       "source": "Wordskill unit 45-46.docx"
     },

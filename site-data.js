@@ -9868,6 +9868,44 @@ window.GE_DATA = {
     }
   });
 
+  const correctionQuizAnswers = {
+    1: "playing",
+    2: "so",
+    3: "from",
+    4: "answer",
+    5: "at an end",
+    6: "is leaving",
+    7: "students",
+    8: "comes",
+    9: "eating",
+    10: "ruins",
+    11: "remove but",
+    12: "and",
+    13: "or",
+    14: "and",
+    15: "so",
+    16: "remove when",
+    17: "when",
+    18: "when",
+    19: "such",
+    20: "before"
+  };
+  window.GE_DATA.bonusStudy.examSkill.correction.forEach((item) => {
+    const wrongIndex = item.prompt.lastIndexOf(item.wrong);
+    const markedPrompt = wrongIndex < 0
+      ? item.prompt
+      : `${item.prompt.slice(0, wrongIndex)}<mark>${item.wrong}</mark>${item.prompt.slice(wrongIndex + item.wrong.length)}`;
+    window.GE_DATA.quiz.push({
+      id: `supp-adverbial-correction-${item.number}`,
+      part: "bonus",
+      section: "Suppl Adverbial Clause Corrections",
+      type: "fill",
+      prompt: `Correct the marked part: ${markedPrompt}`,
+      answer: correctionQuizAnswers[item.number],
+      source: window.GE_DATA.bonusStudy.examSkill.source
+    });
+  });
+
   const tradeInPrompt = "Trade-ins Welcome";
   window.GE_DATA.decodingStudy.items
     .filter((item) => item.prompt.includes(tradeInPrompt))

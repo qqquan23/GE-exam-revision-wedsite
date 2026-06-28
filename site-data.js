@@ -9906,11 +9906,16 @@ window.GE_DATA = {
     });
   });
 
-  const tradeInPrompt = "Trade-ins Welcome";
-  window.GE_DATA.decodingStudy.items
-    .filter((item) => item.prompt.includes(tradeInPrompt))
-    .forEach((item) => { item.answer = "A"; });
-  window.GE_DATA.quiz
-    .filter((item) => item.prompt.includes(tradeInPrompt))
-    .forEach((item) => { item.answer = "A"; });
+  const decodingAnswerCorrections = [
+    { prompt: "Trade-ins Welcome", answer: "A" },
+    { prompt: "PRESS ONCE", answer: "D" }
+  ];
+  decodingAnswerCorrections.forEach((correction) => {
+    window.GE_DATA.decodingStudy.items
+      .filter((item) => item.prompt.includes(correction.prompt))
+      .forEach((item) => { item.answer = correction.answer; });
+    window.GE_DATA.quiz
+      .filter((item) => item.prompt.includes(correction.prompt))
+      .forEach((item) => { item.answer = correction.answer; });
+  });
 })();
